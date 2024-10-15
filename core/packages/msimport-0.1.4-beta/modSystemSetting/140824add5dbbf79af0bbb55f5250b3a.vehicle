@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '60312f9ee854e35ef08dec1a1556f346',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '140824add5dbbf79af0bbb55f5250b3a',
+  'native_key' => 'import_subcategoryes_field',
+  'object' => '{"key":"import_subcategoryes_field","value":"","xtype":"textarea","namespace":"msimport","area":"msimport_settings","editedon":null}',
+);

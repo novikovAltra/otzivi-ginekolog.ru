@@ -1,0 +1,68 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      'eda6eef4b0b7c892e5ab3de9df9efc8f' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":15,"parent":0,"category":"StarRating"}',
+        'guid' => '954fbcaacffb9c8d2805cd8f76d485ca',
+        'native_key' => 15,
+        'signature' => '08bdd49bb46dc3dfbb5d87025ead3281',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"starratingpart-1.1-beta\\/modChunk\\/a0ad70bd0f3505041baeeb7cd3b7e316.resolve.chunk.resolver","name":"resolve.chunk"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '383db90e4171330071cfe54c6f958e26',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'a0ad70bd0f3505041baeeb7cd3b7e316',
+  'native_key' => 98,
+  'object' => '{"id":98,"source":1,"property_preprocess":0,"name":"starTplCustom","description":"Star Rating Default Template","editor_type":0,"category":15,"cache_type":0,"snippet":"<div class=\\"star_wrapper\\">\\n    [[+active:is=`1`:then=`\\u041e\\u0446\\u0435\\u0438\\u0442\\u0435 \\u0441\\u0442\\u0430\\u0442\\u044c\\u044e:`:else=`\\u041e\\u0446\\u0435\\u043d\\u043a\\u0430 \\u0447\\u0438\\u0442\\u0430\\u0442\\u0435\\u043b\\u0435\\u0439:`]]\\n    <div class=\'star-rating-wrapp\'>[[+rating]]<\\/div>\\n    [[+active:is=`1`:then=``:else=` \\u0421\\u043f\\u0430\\u0441\\u0438\\u0431\\u043e \\u0437\\u0430 \\u0432\\u0430\\u0448 \\u0433\\u043e\\u043b\\u043e\\u0441!`]]\\n<\\/div>\\n<!--span class=\\"totalvotes\\">Votes: [[-+vote_count]]<\\/span-->","locked":0,"properties":"a:0:{}","static":1,"static_file":"assets\\/star_rating\\/elements\\/chunck.starTplCustom.php","content":"<div class=\\"star_wrapper\\">\\n    [[+active:is=`1`:then=`\\u041e\\u0446\\u0435\\u0438\\u0442\\u0435 \\u0441\\u0442\\u0430\\u0442\\u044c\\u044e:`:else=`\\u041e\\u0446\\u0435\\u043d\\u043a\\u0430 \\u0447\\u0438\\u0442\\u0430\\u0442\\u0435\\u043b\\u0435\\u0439:`]]\\n    <div class=\'star-rating-wrapp\'>[[+rating]]<\\/div>\\n    [[+active:is=`1`:then=``:else=` \\u0421\\u043f\\u0430\\u0441\\u0438\\u0431\\u043e \\u0437\\u0430 \\u0432\\u0430\\u0448 \\u0433\\u043e\\u043b\\u043e\\u0441!`]]\\n<\\/div>\\n<!--span class=\\"totalvotes\\">Votes: [[-+vote_count]]<\\/span-->"}',
+);

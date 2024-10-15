@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '88e42a59b4653b2250c817eada2933a4',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '7d8da6da1211c0b40d0b73f1bdece625',
+  'native_key' => 'banner_altravita_240_link',
+  'object' => '{"key":"banner_altravita_240_link","value":"http:\\/\\/altravita-ivf.ru\\/stati\\/144-chto-takoe-azoospermiya.html?utm_source=145site&utm_medium=banner&utm_campaign=Altravita-azoospermiya","xtype":"textfield","namespace":"banners","area":"banner_altravita_240","editedon":"2017-08-14 16:36:59"}',
+);

@@ -1,0 +1,13 @@
+<?php return array (
+  'class' => 'xPDOScriptVehicle',
+  'object' => 
+  array (
+    'source' => 'authpart-1.2-beta4/xPDOScriptVehicle/b626faf2a922d1c210ff6d3e64da275d.cleanup.script',
+  ),
+  'vehicle_class' => 'xPDOScriptVehicle',
+  'vehicle_package' => 'transport',
+  'guid' => '216c6831e38e9a410f8dd621774d66d6',
+  'package' => '',
+  'signature' => 'b626faf2a922d1c210ff6d3e64da275d',
+  'native_key' => '216c6831e38e9a410f8dd621774d66d6',
+);

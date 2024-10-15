@@ -1,0 +1,68 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      '56d6fb36c6e07229df89647a42aa8dd6' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":12,"parent":0,"category":"\\u0424\\u043e\\u0440\\u043c\\u044b"}',
+        'guid' => '8e68f0d8efcf865cd94bfee867c0c15f',
+        'native_key' => 12,
+        'signature' => '9146160ed41bed9dc7ec0f44e1abc2c1',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modChunk\\/d365ace3af66f37262488a3f44d425b3.resolve.chunk.resolver","name":"resolve.chunk"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e5dd267f5a50213552405ef4b5b6d92c',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'd365ace3af66f37262488a3f44d425b3',
+  'native_key' => 92,
+  'object' => '{"id":92,"source":2,"property_preprocess":0,"name":"popup_reg","description":"","editor_type":0,"category":12,"cache_type":0,"snippet":"[[!+modx.user.id:is=`0`:then=`\\n    <div class=\\"login\\">\\n        <div class=\\"user-icon\\"><i class=\\"fa fa-user\\"><\\/i><\\/div>\\n        <a class=\\"auth-fancybox\\" data-tab=\\"1\\" href=\\"#popup_reg\\">\\u0412\\u0445\\u043e\\u0434<\\/a>\\n        <a class=\\"auth-fancybox\\" data-tab=\\"2\\" href=\\"#popup_reg\\">\\u0420\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0430\\u0446\\u0438\\u044f<\\/a>\\n    <\\/div>\\n    [[!officeAuth?\\n        &tplLogin=`tpl.Office.auth.reg.custom`\\n        &groups=`Users`\\n        &loginResourceId=`1`\\n        &HybridAuth=`1`\\n        &providers=`Odnoklassniki,Twitter,Facebook,Vkontakte`\\n    ]]\\n`:else=`\\n    [[!officeProfile?\\n        tplProfile=`tpl.Office.profile.form.popup`\\n    ]]\\n`]]\\n\\n\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[!+modx.user.id:is=`0`:then=`\\n    <div class=\\"login\\">\\n        <div class=\\"user-icon\\"><i class=\\"fa fa-user\\"><\\/i><\\/div>\\n        <a class=\\"auth-fancybox\\" data-tab=\\"1\\" href=\\"#popup_reg\\">\\u0412\\u0445\\u043e\\u0434<\\/a>\\n        <a class=\\"auth-fancybox\\" data-tab=\\"2\\" href=\\"#popup_reg\\">\\u0420\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0430\\u0446\\u0438\\u044f<\\/a>\\n    <\\/div>\\n    [[!officeAuth?\\n        &tplLogin=`tpl.Office.auth.reg.custom`\\n        &groups=`Users`\\n        &loginResourceId=`1`\\n        &HybridAuth=`1`\\n        &providers=`Odnoklassniki,Twitter,Facebook,Vkontakte`\\n    ]]\\n`:else=`\\n    [[!officeProfile?\\n        tplProfile=`tpl.Office.profile.form.popup`\\n    ]]\\n`]]\\n\\n\\n"}',
+);

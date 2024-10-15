@@ -1,0 +1,31 @@
+<?php return array (
+  'class' => 'xPDOTransportVehicle',
+  'object' => 
+  array (
+    'source' => 'starratingpart-1.1-beta/xPDOTransportVehicle/3b0ac338ae34fddca404cdb3f3143a73/',
+    'target' => 'return MODX_CORE_PATH . \'packages/\';',
+    'name' => 'starrating-2.0-rc1.transport.zip',
+  ),
+  'vehicle_class' => 'xPDOTransportVehicle',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"starratingpart-1.1-beta\\/xPDOTransportVehicle\\/3b0ac338ae34fddca404cdb3f3143a73.starrating-2.0-rc1.resolver","type":"php","name":"starrating-2.0-rc1"}',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"starratingpart-1.1-beta\\/xPDOTransportVehicle\\/3b0ac338ae34fddca404cdb3f3143a73.starrating-2.0-rc1.validator","type":"php","name":"starrating-2.0-rc1"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => 'f7c0cab75f4350f8f8f55e11aa67d1dc',
+  'package' => '',
+  'signature' => '3b0ac338ae34fddca404cdb3f3143a73',
+  'native_key' => 'f7c0cab75f4350f8f8f55e11aa67d1dc',
+);

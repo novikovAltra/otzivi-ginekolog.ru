@@ -1,0 +1,32 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => 'BUILD_CHUNK_UPDATE',
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c79043b19f2cdd8f7ed115f114b50801',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '5c9b74fa65c046312f9e0c5dd08f30ba',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"msImport","rank":0}',
+);

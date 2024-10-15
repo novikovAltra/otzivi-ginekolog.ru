@@ -1,0 +1,31 @@
+<?php return array (
+  'class' => 'xPDOTransportVehicle',
+  'object' => 
+  array (
+    'source' => 'authpart-1.2-beta4/xPDOTransportVehicle/98d3c4492364b34e7fcff343fe5e5544/',
+    'target' => 'return MODX_CORE_PATH . \'packages/\';',
+    'name' => 'office-1.1.10-pl.transport.zip',
+  ),
+  'vehicle_class' => 'xPDOTransportVehicle',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"authpart-1.2-beta4\\/xPDOTransportVehicle\\/98d3c4492364b34e7fcff343fe5e5544.office-1.1.10-pl.resolver","type":"php","name":"office-1.1.10-pl"}',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"authpart-1.2-beta4\\/xPDOTransportVehicle\\/98d3c4492364b34e7fcff343fe5e5544.office-1.1.10-pl.validator","type":"php","name":"office-1.1.10-pl"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => '6fddebb06d9b16d177e535ef9dc101c8',
+  'package' => '',
+  'signature' => '98d3c4492364b34e7fcff343fe5e5544',
+  'native_key' => '6fddebb06d9b16d177e535ef9dc101c8',
+);

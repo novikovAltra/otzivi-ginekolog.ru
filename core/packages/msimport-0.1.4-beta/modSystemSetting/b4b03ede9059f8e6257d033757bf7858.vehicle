@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'bcd187ec06b30e97eff5a8aa42022753',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'b4b03ede9059f8e6257d033757bf7858',
+  'native_key' => 'import_configuration_file_path',
+  'object' => '{"key":"import_configuration_file_path","value":"","xtype":"textfield","namespace":"msimport","area":"msimport_main","editedon":null}',
+);

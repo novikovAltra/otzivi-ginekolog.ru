@@ -1,0 +1,1 @@
+[[!starRatingCustom? &config_name=`article` &starId=`[[*id]]`]]

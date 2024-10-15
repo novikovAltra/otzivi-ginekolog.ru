@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8826f7863ae0020a3f3ded16ad079fe6',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'b5e6a75c7b1f64c42da4d00ec7ab469c',
+  'native_key' => 'import_resource_class',
+  'object' => '{"key":"import_resource_class","value":"msProduct","xtype":"textfield","namespace":"msimport","area":"msimport_main","editedon":null}',
+);

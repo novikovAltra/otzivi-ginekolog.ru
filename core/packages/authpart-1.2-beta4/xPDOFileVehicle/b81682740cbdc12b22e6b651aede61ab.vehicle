@@ -1,0 +1,31 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'authpart-1.2-beta4/xPDOFileVehicle/b81682740cbdc12b22e6b651aede61ab/',
+    'target' => 'return MODX_CORE_PATH . \'components/vapor/model/\';',
+    'name' => 'vapor',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/xPDOFileVehicle\\/b81682740cbdc12b22e6b651aede61ab.validate.truncate_tables.validator","classes":["modChunk","modCategory","modCategoryClosure","modElementPropertySet","modManagerLog","modPlugin","modResource","modSnippet","modTemplate","modTemplateVar","modTemplateVarTemplate","modTemplateVarResource","modTemplateVarResourceGroup"],"name":"validate.truncate_tables"}',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/xPDOFileVehicle\\/b81682740cbdc12b22e6b651aede61ab.resolve.vapor_model.resolver","name":"resolve.vapor_model"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => '35093b5d1368fa764a590228a77a95c0',
+  'package' => '',
+  'signature' => 'b81682740cbdc12b22e6b651aede61ab',
+  'native_key' => '35093b5d1368fa764a590228a77a95c0',
+);

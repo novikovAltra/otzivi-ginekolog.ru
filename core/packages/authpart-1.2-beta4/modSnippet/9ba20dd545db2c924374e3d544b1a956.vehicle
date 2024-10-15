@@ -1,0 +1,60 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      '2d3b9b11dd801d52a4eaf287c15e7d88' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":18,"parent":0,"category":"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0430 \\u043b\\u043e\\u044f\\u043b\\u044c\\u043d\\u043e\\u0441\\u0442\\u0438"}',
+        'guid' => 'fca0f8e478b2e3ad0c4e1330c1e63459',
+        'native_key' => 18,
+        'signature' => 'e3673f9c65adc66407f91037deb60851',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c936d44adf3276a4ebb6c1dcd3627ca5',
+  'package' => 'modx',
+  'class' => 'modSnippet',
+  'signature' => '9ba20dd545db2c924374e3d544b1a956',
+  'native_key' => 53,
+  'object' => '{"id":53,"source":1,"property_preprocess":0,"name":"loyaltyAdd","description":"","editor_type":0,"category":18,"cache_type":0,"snippet":"","locked":0,"properties":"a:0:{}","moduleguid":"","static":1,"static_file":"assets\\/pack_files\\/loyalty\\/elements\\/snippet.loyaltyAdd.php","content":""}',
+);

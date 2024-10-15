@@ -1,0 +1,68 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      'a2cab81b2d08f94296416d084b469560' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":16,"parent":0,"category":"Office"}',
+        'guid' => 'd06d65cf26de5e20cd8418f772e8782d',
+        'native_key' => 16,
+        'signature' => '2744fbbdca919f09e0f3a325e8449445',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modChunk\\/0099107190a5feb7939ffeffb62ff256.resolve.chunk.resolver","name":"resolve.chunk"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3bd910cda8bdb1e9b701bf3be817a921',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '0099107190a5feb7939ffeffb62ff256',
+  'native_key' => 88,
+  'object' => '{"id":88,"source":0,"property_preprocess":0,"name":"tpl.Office.auth.reg.custom","description":"","editor_type":0,"category":16,"cache_type":0,"snippet":"<div class=\\"section popup popup_reg\\" id=\\"popup_reg\\" style=\\"display:none\\">\\n    <ul class=\\"tabs\\">\\n        <li data-tab=\\"1\\" class=\\"current\\">[[%office_auth_login]]<\\/li>\\n        <li data-tab=\\"2\\">[[%office_auth_register]]<\\/li>\\n    <\\/ul>\\n    <div class=\\"box visible auth_box\\" id=\\"office-auth-form\\">\\n        <div class=\\"office-auth-login-wrapper\\">\\n            <form method=\\"post\\" class=\\"form-horizontal\\" id=\\"office-auth-login\\">\\n                <div class=\\"form-group\\">\\n                    <div class=\\"left\\">\\n                        <div class=\\"line_row\\">\\n                            <label for=\\"office-auth-login-email\\" class=\\"control-label\\">[[%office_auth_login_email]]&nbsp;<span class=\\"red\\">*<\\/span><\\/label>\\n                            <div class=\\"row_input\\">\\n                                <input type=\\"text\\" name=\\"username\\" placeholder=\\"\\" class=\\"form-control\\" id=\\"office-auth-login-username\\" value=\\"\\" \\/>\\n                            <\\/div>\\n                        <\\/div>\\n                        <div class=\\"line_row\\">\\n                            <label for=\\"office-auth-login-password\\" class=\\"control-label\\">[[%office_auth_login_password]]<\\/label>\\n                            <div class=\\"row_input \\">\\n                                <input type=\\"password\\" name=\\"password\\" placeholder=\\"\\" class=\\"form-control\\" id=\\"office-login-form-password\\" value=\\"\\" \\/>\\n                                \\n                            <\\/div>\\n                        <\\/div>\\n                    <\\/div>\\n                    <div class=\\"right\\">\\n                        <div class=\\"row_input\\">\\n                            <button type=\\"submit\\" class=\\"btn_default btn-all\\">\\u0412\\u043e\\u0439\\u0442\\u0438[[-%office_auth_login_btn]]<\\/button>                    \\n                            <p class=\\"help-block\\"><small>[[%office_auth_login_password_desc]]<\\/small><\\/p>\\n                        <\\/div>\\n                    <\\/div>\\n                    <div class=\\"modal-soc\\">[[+providers]]<\\/div>\\n                    <input type=\\"hidden\\" name=\\"action\\" value=\\"auth\\/formLogin\\" \\/>\\n                    <input type=\\"hidden\\" name=\\"return\\" value=\\"\\" \\/>\\n                <\\/div>\\n            <\\/form>\\n        <\\/div>\\n    <\\/div>\\n    \\n    <div class=\\"box auth_box\\" id=\\"autoriz\\">\\n        <div  id=\\"office-auth-form\\">\\n            <div class=\\"\\">\\n                <form method=\\"post\\" id=\\"office-auth-register\\">\\n                    <div class=\\"form-group\\">\\n                        <div class=\\"left\\">\\n                            <div class=\\"line_row\\">\\n                                <label for=\\"office-auth-register-email\\" class=\\"control-label\\">[[%office_auth_register_email]]&nbsp;<span class=\\"red\\">*<\\/span><\\/label>\\n                                <div class=\\"row_input\\">\\n                                    <input type=\\"email\\" name=\\"email\\" placeholder=\\"\\" class=\\"form-control\\" id=\\"office-auth-register-email\\" value=\\"\\" \\/>\\n                                <\\/div>\\n                            <\\/div>\\n                            <div class=\\"line_row\\">\\n                                <label for=\\"office-auth-register-password\\" class=\\"control-label\\">[[%office_auth_register_password]]<\\/label>\\n                                <div class=\\"row_input\\">\\n                                    <input type=\\"password\\" name=\\"password\\" placeholder=\\"\\" class=\\"form-control\\" id=\\"office-register-form-password\\" value=\\"\\" \\/>\\n                                <\\/div>\\n                            <\\/div>\\n                        <\\/div>\\n                        <div class=\\"right\\">\\n                            <div class=\\"line_row\\">\\n                                <p class=\\"help-block\\"><small>[[%office_auth_register_email_desc]]<\\/small><\\/p>\\n                            <\\/div>\\n                            <div class=\\"line_row\\">\\n                                <p class=\\"help-block\\"><small>[[%office_auth_register_password_desc]]<\\/small><\\/p>\\n                            <\\/div>\\n                        <\\/div>\\n                        <div class=\\"clear\\"><\\/div>\\n                        <input type=\\"hidden\\" name=\\"action\\" value=\\"auth\\/formRegister\\" \\/>\\n                        <div class=\\"row_input\\">\\n                            <button type=\\"submit\\" class=\\"btn_default btn_regist btn-all\\">[[%office_auth_register_btn]]<\\/button>\\n                        <\\/div>\\n                        [[-!HybridAuth?\\n                            &providers=`Odnoklassniki,Twitter,Facebook,Vkontakte`\\n                            &groups=`Users`\\n                            &loginResourceId=`1`\\n                        ]]\\n                    <\\/div>\\n                <\\/form>\\n            <\\/div>\\n        <\\/div>\\n    <\\/div>\\n<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"section popup popup_reg\\" id=\\"popup_reg\\" style=\\"display:none\\">\\n    <ul class=\\"tabs\\">\\n        <li data-tab=\\"1\\" class=\\"current\\">[[%office_auth_login]]<\\/li>\\n        <li data-tab=\\"2\\">[[%office_auth_register]]<\\/li>\\n    <\\/ul>\\n    <div class=\\"box visible auth_box\\" id=\\"office-auth-form\\">\\n        <div class=\\"office-auth-login-wrapper\\">\\n            <form method=\\"post\\" class=\\"form-horizontal\\" id=\\"office-auth-login\\">\\n                <div class=\\"form-group\\">\\n                    <div class=\\"left\\">\\n                        <div class=\\"line_row\\">\\n                            <label for=\\"office-auth-login-email\\" class=\\"control-label\\">[[%office_auth_login_email]]&nbsp;<span class=\\"red\\">*<\\/span><\\/label>\\n                            <div class=\\"row_input\\">\\n                                <input type=\\"text\\" name=\\"username\\" placeholder=\\"\\" class=\\"form-control\\" id=\\"office-auth-login-username\\" value=\\"\\" \\/>\\n                            <\\/div>\\n                        <\\/div>\\n                        <div class=\\"line_row\\">\\n                            <label for=\\"office-auth-login-password\\" class=\\"control-label\\">[[%office_auth_login_password]]<\\/label>\\n                            <div class=\\"row_input \\">\\n                                <input type=\\"password\\" name=\\"password\\" placeholder=\\"\\" class=\\"form-control\\" id=\\"office-login-form-password\\" value=\\"\\" \\/>\\n                                \\n                            <\\/div>\\n                        <\\/div>\\n                    <\\/div>\\n                    <div class=\\"right\\">\\n                        <div class=\\"row_input\\">\\n                            <button type=\\"submit\\" class=\\"btn_default btn-all\\">\\u0412\\u043e\\u0439\\u0442\\u0438[[-%office_auth_login_btn]]<\\/button>                    \\n                            <p class=\\"help-block\\"><small>[[%office_auth_login_password_desc]]<\\/small><\\/p>\\n                        <\\/div>\\n                    <\\/div>\\n                    <div class=\\"modal-soc\\">[[+providers]]<\\/div>\\n                    <input type=\\"hidden\\" name=\\"action\\" value=\\"auth\\/formLogin\\" \\/>\\n                    <input type=\\"hidden\\" name=\\"return\\" value=\\"\\" \\/>\\n                <\\/div>\\n            <\\/form>\\n        <\\/div>\\n    <\\/div>\\n    \\n    <div class=\\"box auth_box\\" id=\\"autoriz\\">\\n        <div  id=\\"office-auth-form\\">\\n            <div class=\\"\\">\\n                <form method=\\"post\\" id=\\"office-auth-register\\">\\n                    <div class=\\"form-group\\">\\n                        <div class=\\"left\\">\\n                            <div class=\\"line_row\\">\\n                                <label for=\\"office-auth-register-email\\" class=\\"control-label\\">[[%office_auth_register_email]]&nbsp;<span class=\\"red\\">*<\\/span><\\/label>\\n                                <div class=\\"row_input\\">\\n                                    <input type=\\"email\\" name=\\"email\\" placeholder=\\"\\" class=\\"form-control\\" id=\\"office-auth-register-email\\" value=\\"\\" \\/>\\n                                <\\/div>\\n                            <\\/div>\\n                            <div class=\\"line_row\\">\\n                                <label for=\\"office-auth-register-password\\" class=\\"control-label\\">[[%office_auth_register_password]]<\\/label>\\n                                <div class=\\"row_input\\">\\n                                    <input type=\\"password\\" name=\\"password\\" placeholder=\\"\\" class=\\"form-control\\" id=\\"office-register-form-password\\" value=\\"\\" \\/>\\n                                <\\/div>\\n                            <\\/div>\\n                        <\\/div>\\n                        <div class=\\"right\\">\\n                            <div class=\\"line_row\\">\\n                                <p class=\\"help-block\\"><small>[[%office_auth_register_email_desc]]<\\/small><\\/p>\\n                            <\\/div>\\n                            <div class=\\"line_row\\">\\n                                <p class=\\"help-block\\"><small>[[%office_auth_register_password_desc]]<\\/small><\\/p>\\n                            <\\/div>\\n                        <\\/div>\\n                        <div class=\\"clear\\"><\\/div>\\n                        <input type=\\"hidden\\" name=\\"action\\" value=\\"auth\\/formRegister\\" \\/>\\n                        <div class=\\"row_input\\">\\n                            <button type=\\"submit\\" class=\\"btn_default btn_regist btn-all\\">[[%office_auth_register_btn]]<\\/button>\\n                        <\\/div>\\n                        [[-!HybridAuth?\\n                            &providers=`Odnoklassniki,Twitter,Facebook,Vkontakte`\\n                            &groups=`Users`\\n                            &loginResourceId=`1`\\n                        ]]\\n                    <\\/div>\\n                <\\/form>\\n            <\\/div>\\n        <\\/div>\\n    <\\/div>\\n<\\/div>"}',
+);

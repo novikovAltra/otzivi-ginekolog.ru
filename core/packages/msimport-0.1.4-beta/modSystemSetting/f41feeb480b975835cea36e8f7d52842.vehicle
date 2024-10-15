@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '754935fc9a75f4c59a73120ec049d55f',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f41feeb480b975835cea36e8f7d52842',
+  'native_key' => 'import_product_ms2_fields',
+  'object' => '{"key":"import_product_ms2_fields","value":"{\\"weight\\":\\"null\\",\\"size\\":\\"[\\\\\\"\\\\\\"]\\",\\"color\\":\\"[\\\\\\"\\\\\\"]\\",\\"source\\":\\"2\\"}","xtype":"textarea","namespace":"msimport","area":"msimport_settings","editedon":null}',
+);

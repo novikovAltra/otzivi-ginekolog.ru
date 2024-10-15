@@ -1,0 +1,15 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'altravitabanners-1.0-beta1/xPDOFileVehicle/7a657ce9ecf96cabc264ab667aeebc3a/',
+    'target' => 'return "".MODX_ASSETS_PATH."/";',
+    'name' => 'banners_altravita',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'vehicle_package' => 'transport',
+  'guid' => '37c0ababc9b1ab4eeb4b6203867440e8',
+  'package' => '',
+  'signature' => '7a657ce9ecf96cabc264ab667aeebc3a',
+  'native_key' => '37c0ababc9b1ab4eeb4b6203867440e8',
+);

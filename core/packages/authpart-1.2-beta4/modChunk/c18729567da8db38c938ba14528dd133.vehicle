@@ -1,0 +1,68 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      '5932160930ab371f3be7bcc5531a60f7' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":16,"parent":0,"category":"Office"}',
+        'guid' => '9090a587e4c07bde74281f2205522c30',
+        'native_key' => 16,
+        'signature' => 'd99d247babed2b03ab7430b4e2e1f138',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modChunk\\/c18729567da8db38c938ba14528dd133.resolve.chunk.resolver","name":"resolve.chunk"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd5dd94547932cb9838bc229ccdc6d9b0',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'c18729567da8db38c938ba14528dd133',
+  'native_key' => 89,
+  'object' => '{"id":89,"source":1,"property_preprocess":0,"name":"tpl.Office.auth.custom","description":"","editor_type":0,"category":16,"cache_type":0,"snippet":"<div class=\\"row\\" id=\\"office-auth-form\\">\\n\\t<div class=\\"col-md-6 office-auth-login-wrapper\\">\\n\\t\\t<h4>[[%office_auth_login]]<\\/h4>\\n\\n\\t\\t<form method=\\"post\\" class=\\"form-horizontal\\" id=\\"office-auth-login\\">\\n\\t\\t\\t<div class=\\"form-group\\">\\n\\t\\t\\t\\t<label for=\\"office-auth-login-email\\" class=\\"col-md-3 control-label\\">[[%office_auth_login_username]]&nbsp;<span class=\\"red\\">*<\\/span><\\/label>\\n\\t\\t\\t\\t<div class=\\"col-md-8\\">\\n\\t\\t\\t\\t\\t<input type=\\"text\\" name=\\"username\\" placeholder=\\"\\" class=\\"form-control\\" id=\\"office-auth-login-username\\" value=\\"\\" \\/>\\n\\t\\t\\t\\t\\t<p class=\\"help-block\\"><small>[[%office_auth_login_username_desc]]<\\/small><\\/p>\\n\\t\\t\\t\\t<\\/div>\\n\\n\\t\\t\\t\\t<label for=\\"office-auth-login-password\\" class=\\"col-md-3 control-label\\">[[%office_auth_login_password]]<\\/label>\\n\\t\\t\\t\\t<div class=\\"col-md-8\\">\\n\\t\\t\\t\\t\\t<input type=\\"password\\" name=\\"password\\" placeholder=\\"\\" class=\\"form-control\\" id=\\"office-login-form-password\\" value=\\"\\" \\/>\\n\\t\\t\\t\\t\\t<p class=\\"help-block\\"><small>[[%office_auth_login_password_desc]]<\\/small><\\/p>\\n\\t\\t\\t\\t<\\/div>\\n\\n\\t\\t\\t\\t<input type=\\"hidden\\" name=\\"action\\" value=\\"auth\\/formLogin\\" \\/>\\n\\t\\t\\t\\t<input type=\\"hidden\\" name=\\"return\\" value=\\"\\" \\/>\\n\\t\\t\\t\\t<div class=\\"col-sm-offset-3 col-sm-8\\">\\n\\t\\t\\t\\t\\t<button type=\\"submit\\" class=\\"btn btn-primary\\">[[%office_auth_login_btn]]<\\/button>\\n\\t\\t\\t\\t<\\/div>\\n\\t\\t\\t<\\/div>\\n\\t\\t<\\/form>\\n\\n\\t\\t<label>[[%office_auth_login_ha]]<\\/label>\\n\\t\\t<div>[[+providers]]<\\/div>\\n\\t\\t<p class=\\"help-block\\"><small>[[%office_auth_login_ha_desc]]<\\/small><\\/p>\\n\\n\\t\\t[[+error:notempty=`\\n\\t\\t<div class=\\"alert alert-block alert-danger alert-error\\">[[+error]]<\\/div>\\n\\t\\t`]]\\n\\t<\\/div>\\n<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"core\\/components\\/office\\/elements\\/chunks\\/chunk.auth.login.tpl","content":"<div class=\\"row\\" id=\\"office-auth-form\\">\\n\\t<div class=\\"col-md-6 office-auth-login-wrapper\\">\\n\\t\\t<h4>[[%office_auth_login]]<\\/h4>\\n\\n\\t\\t<form method=\\"post\\" class=\\"form-horizontal\\" id=\\"office-auth-login\\">\\n\\t\\t\\t<div class=\\"form-group\\">\\n\\t\\t\\t\\t<label for=\\"office-auth-login-email\\" class=\\"col-md-3 control-label\\">[[%office_auth_login_username]]&nbsp;<span class=\\"red\\">*<\\/span><\\/label>\\n\\t\\t\\t\\t<div class=\\"col-md-8\\">\\n\\t\\t\\t\\t\\t<input type=\\"text\\" name=\\"username\\" placeholder=\\"\\" class=\\"form-control\\" id=\\"office-auth-login-username\\" value=\\"\\" \\/>\\n\\t\\t\\t\\t\\t<p class=\\"help-block\\"><small>[[%office_auth_login_username_desc]]<\\/small><\\/p>\\n\\t\\t\\t\\t<\\/div>\\n\\n\\t\\t\\t\\t<label for=\\"office-auth-login-password\\" class=\\"col-md-3 control-label\\">[[%office_auth_login_password]]<\\/label>\\n\\t\\t\\t\\t<div class=\\"col-md-8\\">\\n\\t\\t\\t\\t\\t<input type=\\"password\\" name=\\"password\\" placeholder=\\"\\" class=\\"form-control\\" id=\\"office-login-form-password\\" value=\\"\\" \\/>\\n\\t\\t\\t\\t\\t<p class=\\"help-block\\"><small>[[%office_auth_login_password_desc]]<\\/small><\\/p>\\n\\t\\t\\t\\t<\\/div>\\n\\n\\t\\t\\t\\t<input type=\\"hidden\\" name=\\"action\\" value=\\"auth\\/formLogin\\" \\/>\\n\\t\\t\\t\\t<input type=\\"hidden\\" name=\\"return\\" value=\\"\\" \\/>\\n\\t\\t\\t\\t<div class=\\"col-sm-offset-3 col-sm-8\\">\\n\\t\\t\\t\\t\\t<button type=\\"submit\\" class=\\"btn btn-primary\\">[[%office_auth_login_btn]]<\\/button>\\n\\t\\t\\t\\t<\\/div>\\n\\t\\t\\t<\\/div>\\n\\t\\t<\\/form>\\n\\n\\t\\t<label>[[%office_auth_login_ha]]<\\/label>\\n\\t\\t<div>[[+providers]]<\\/div>\\n\\t\\t<p class=\\"help-block\\"><small>[[%office_auth_login_ha_desc]]<\\/small><\\/p>\\n\\n\\t\\t[[+error:notempty=`\\n\\t\\t<div class=\\"alert alert-block alert-danger alert-error\\">[[+error]]<\\/div>\\n\\t\\t`]]\\n\\t<\\/div>\\n<\\/div>"}',
+);

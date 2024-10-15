@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'ms2gallery',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0751160eb2de105a9e016e07849cf6d8',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c287d97e65ad7f295df92a7565a364eb',
+  'native_key' => 'ms2gallery_date_format',
+  'object' => '{"key":"ms2gallery_date_format","value":"%d.%m.%y %H:%M","xtype":"textfield","namespace":"ms2gallery","area":"ms2gallery_resource","editedon":null}',
+);

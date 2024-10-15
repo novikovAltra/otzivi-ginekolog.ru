@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'office',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9de57fe041a69de8ce9d7248cd890745',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f893ff78fe2b8bef7208a88da6f8913d',
+  'native_key' => 'office_auth_frontend_js',
+  'object' => '{"key":"office_auth_frontend_js","value":"[[+jsUrl]]auth\\/default.js","xtype":"textfield","namespace":"office","area":"office_auth","editedon":null}',
+);

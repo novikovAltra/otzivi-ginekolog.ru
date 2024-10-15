@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5e28fc8434752ad1fc5bd9ef911c4359',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f799d6b4ad1047900354f3ad0cb1e3f9',
+  'native_key' => 'banner_altravita_900_text_color',
+  'object' => '{"key":"banner_altravita_900_text_color","value":"#fff","xtype":"textfield","namespace":"banners","area":"banner_altravita_900","editedon":"0000-00-00 00:00:00"}',
+);

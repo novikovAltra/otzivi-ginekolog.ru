@@ -1,0 +1,68 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      '64b5e35ec83cdcd195914453cdd7dc8a' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":15,"parent":0,"category":"StarRating"}',
+        'guid' => '7b70ae4cb6f2bbf3c07910ce6469f9cd',
+        'native_key' => 15,
+        'signature' => 'be3bf35e80841cfd267c2c3f5d09a13c',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"starratingpart-1.1-beta\\/modChunk\\/e0bba534c771b8025c992bfb2ee1beee.resolve.chunk.resolver","name":"resolve.chunk"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'cfc843da73cd67d06a8f1b09bc524586',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'e0bba534c771b8025c992bfb2ee1beee',
+  'native_key' => 100,
+  'object' => '{"id":100,"source":1,"property_preprocess":0,"name":"activeStarTpl","description":"","editor_type":0,"category":15,"cache_type":0,"snippet":"<li class=\\"star\\"><a href=\\"[[+url]]\\" style=\\"width:[[+starWidth]]%;z-index:[[+starIndex]]\\" rel=\\"nofollow\\">[[+idx]]<\\/a><\\/li>","locked":0,"properties":"a:0:{}","static":1,"static_file":"assets\\/star_rating\\/elements\\/chunck.activeStarTpl.php","content":"<li class=\\"star\\"><a href=\\"[[+url]]\\" style=\\"width:[[+starWidth]]%;z-index:[[+starIndex]]\\" rel=\\"nofollow\\">[[+idx]]<\\/a><\\/li>"}',
+);

@@ -1,0 +1,49 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => 'BUILD_CHUNK_UPDATE',
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'msimport',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"msimport-0.1.4-beta\\/modCategory\\/441d7df98c66c774cfc8896cf34036fa\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"msimport"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"msimport-0.1.4-beta\\/modCategory\\/441d7df98c66c774cfc8896cf34036fa\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"msimport"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"msimport-0.1.4-beta\\/modCategory\\/441d7df98c66c774cfc8896cf34036fa.resolve.settings.resolver","type":"php","name":"resolve.settings"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7ce14ce57563419d5fac9bab3b6429d5',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '441d7df98c66c774cfc8896cf34036fa',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"msImport","rank":0}',
+);

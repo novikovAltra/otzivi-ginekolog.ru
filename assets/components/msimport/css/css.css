@@ -1,0 +1,11 @@
+.x-form-file-wrap {
+  background: none !important;
+  overflow: hidden;
+  margin-bottom: 10px; }
+  .x-form-file-wrap .x-form-file-text {
+    float: left;
+    margin-right: 20px;
+    width: 200px !important; }
+  .x-form-file-wrap .x-btn-text {
+    margin-left: -20px !important;
+    width: auto !important; }

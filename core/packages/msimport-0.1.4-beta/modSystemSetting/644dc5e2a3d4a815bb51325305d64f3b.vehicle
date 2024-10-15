@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9ed20a04850e65e94eeb39fdbc919f26',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '644dc5e2a3d4a815bb51325305d64f3b',
+  'native_key' => 'import_category_class',
+  'object' => '{"key":"import_category_class","value":"msCategory","xtype":"textfield","namespace":"msimport","area":"msimport_main","editedon":null}',
+);

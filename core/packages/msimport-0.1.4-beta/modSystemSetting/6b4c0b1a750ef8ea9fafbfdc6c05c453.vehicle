@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e9bcc5cfa4478340efd9d091380a02d5',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '6b4c0b1a750ef8ea9fafbfdc6c05c453',
+  'native_key' => 'import_ignored_columns',
+  'object' => '{"key":"import_ignored_columns","value":"[]","xtype":"textarea","namespace":"msimport","area":"msimport_main","editedon":null}',
+);

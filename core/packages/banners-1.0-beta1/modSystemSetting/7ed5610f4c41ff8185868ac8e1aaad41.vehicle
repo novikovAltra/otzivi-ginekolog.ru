@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'abb37198be08965166c879455fa851df',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '7ed5610f4c41ff8185868ac8e1aaad41',
+  'native_key' => 'banner_altravita_240_two_count',
+  'object' => '{"key":"banner_altravita_240_two_count","value":"1 3 0 0","xtype":"textfield","namespace":"banners","area":"banner_altravita_240_two","editedon":"0000-00-00 00:00:00"}',
+);

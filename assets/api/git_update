@@ -1,0 +1,8 @@
+#!/bin/bash
+cd ./$1
+echo `git checkout -- .`
+echo `git pull https://filimonov707:xhnEhWvO@$2`
+if [ -n "$5" ]
+then
+    echo `php shell/$5`
+fi

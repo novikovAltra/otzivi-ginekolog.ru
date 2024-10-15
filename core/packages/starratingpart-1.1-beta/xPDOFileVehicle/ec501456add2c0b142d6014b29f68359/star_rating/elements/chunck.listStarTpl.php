@@ -1,0 +1,1 @@
+<ul class="star-rating-[[+theme]]" style="width:[[+totalWidth]]px">[[+wrapper]]</ul>

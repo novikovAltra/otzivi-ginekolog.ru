@@ -1,0 +1,68 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      '8155db01640bfd51b4388d055cf269ac' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":19,"parent":0,"category":"banners_altravita"}',
+        'guid' => '9afb3617835e2f2b1ad04010430a467b',
+        'native_key' => 19,
+        'signature' => 'fca5da81e899a31eafa5d9b64067a48b',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"altravitabanners-1.0-beta1\\/modChunk\\/9daf87af381a3c53aa978f1c6c6d92da.resolve.chunk.resolver","name":"resolve.chunk"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'aa0257b85f1ec77282af0fd322918d18',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '9daf87af381a3c53aa978f1c6c6d92da',
+  'native_key' => 105,
+  'object' => '{"id":105,"source":1,"property_preprocess":0,"name":"banner_in_sidebar","description":"","editor_type":0,"category":19,"cache_type":0,"snippet":"<div class=\\"altravita_b_place\\">\\n    <div>\\n        <object classid=\\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\\" width=\\"240\\" height=\\"400\\" id=\\"2-240x400_new\\" align=\\"middle\\">\\n\\t\\t\\t<param name=\\"movie\\" value=\\"assets\\/banners_altravita\\/img\\/pr_block_middle.swf\\" \\/>\\n\\t\\t\\t<param name=\\"quality\\" value=\\"high\\" \\/>\\n\\t\\t\\t<param name=\\"bgcolor\\" value=\\"#ffffff\\" \\/>\\n\\t\\t\\t<param name=\\"play\\" value=\\"true\\" \\/>\\n\\t\\t\\t<param name=\\"loop\\" value=\\"true\\" \\/>\\n\\t\\t\\t<param name=\\"wmode\\" value=\\"window\\" \\/>\\n\\t\\t\\t<param name=\\"scale\\" value=\\"showall\\" \\/>\\n\\t\\t\\t<param name=\\"menu\\" value=\\"true\\" \\/>\\n\\t\\t\\t<param name=\\"devicefont\\" value=\\"false\\" \\/>\\n\\t\\t\\t<param name=\\"salign\\" value=\\"\\" \\/>\\n\\t\\t\\t<param name=\\"allowScriptAccess\\" value=\\"sameDomain\\" \\/>\\n\\t\\t\\t<!--[if !IE]>-->\\n\\t\\t\\t<object type=\\"application\\/x-shockwave-flash\\" data=\\"assets\\/banners_altravita\\/img\\/pr_block_middle.swf\\" width=\\"240\\" height=\\"400\\">\\n\\t\\t\\t\\t<param name=\\"movie\\" value=\\"assets\\/banners_altravita\\/img\\/pr_block_middle.swf\\" \\/>\\n\\t\\t\\t\\t<param name=\\"quality\\" value=\\"high\\" \\/>\\n\\t\\t\\t\\t<param name=\\"bgcolor\\" value=\\"#ffffff\\" \\/>\\n\\t\\t\\t\\t<param name=\\"play\\" value=\\"true\\" \\/>\\n\\t\\t\\t\\t<param name=\\"loop\\" value=\\"true\\" \\/>\\n\\t\\t\\t\\t<param name=\\"wmode\\" value=\\"window\\" \\/>\\n\\t\\t\\t\\t<param name=\\"scale\\" value=\\"showall\\" \\/>\\n\\t\\t\\t\\t<param name=\\"menu\\" value=\\"true\\" \\/>\\n\\t\\t\\t\\t<param name=\\"devicefont\\" value=\\"false\\" \\/>\\n\\t\\t\\t\\t<param name=\\"salign\\" value=\\"\\" \\/>\\n\\t\\t\\t\\t<param name=\\"allowScriptAccess\\" value=\\"sameDomain\\" \\/>\\n\\t\\t\\t<!--<![endif]-->\\n\\t\\t\\t\\t<a href=\\"http:\\/\\/www.adobe.com\\/go\\/getflash\\">\\n\\t\\t\\t\\t\\t<img src=\\"http:\\/\\/www.adobe.com\\/images\\/shared\\/download_buttons\\/get_flash_player.gif\\" alt=\\"\\u0417\\u0430\\u0433\\u0440\\u0443\\u0437\\u0438\\u0442\\u044c Adobe Flash Player\\" \\/>\\n\\t\\t\\t\\t<\\/a>\\n\\t\\t\\t<!--[if !IE]>-->\\n\\t\\t\\t<\\/object>\\n\\t\\t\\t<!--<![endif]-->\\n\\t\\t<\\/object>\\n    <\\/div>\\n<\\/div>","locked":0,"properties":"a:0:{}","static":1,"static_file":"assets\\/banners_altravita\\/elements\\/chunck.bannerInSidebar.php","content":"<div class=\\"altravita_b_place\\">\\n    <div>\\n        <object classid=\\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\\" width=\\"240\\" height=\\"400\\" id=\\"2-240x400_new\\" align=\\"middle\\">\\n\\t\\t\\t<param name=\\"movie\\" value=\\"assets\\/banners_altravita\\/img\\/pr_block_middle.swf\\" \\/>\\n\\t\\t\\t<param name=\\"quality\\" value=\\"high\\" \\/>\\n\\t\\t\\t<param name=\\"bgcolor\\" value=\\"#ffffff\\" \\/>\\n\\t\\t\\t<param name=\\"play\\" value=\\"true\\" \\/>\\n\\t\\t\\t<param name=\\"loop\\" value=\\"true\\" \\/>\\n\\t\\t\\t<param name=\\"wmode\\" value=\\"window\\" \\/>\\n\\t\\t\\t<param name=\\"scale\\" value=\\"showall\\" \\/>\\n\\t\\t\\t<param name=\\"menu\\" value=\\"true\\" \\/>\\n\\t\\t\\t<param name=\\"devicefont\\" value=\\"false\\" \\/>\\n\\t\\t\\t<param name=\\"salign\\" value=\\"\\" \\/>\\n\\t\\t\\t<param name=\\"allowScriptAccess\\" value=\\"sameDomain\\" \\/>\\n\\t\\t\\t<!--[if !IE]>-->\\n\\t\\t\\t<object type=\\"application\\/x-shockwave-flash\\" data=\\"assets\\/banners_altravita\\/img\\/pr_block_middle.swf\\" width=\\"240\\" height=\\"400\\">\\n\\t\\t\\t\\t<param name=\\"movie\\" value=\\"assets\\/banners_altravita\\/img\\/pr_block_middle.swf\\" \\/>\\n\\t\\t\\t\\t<param name=\\"quality\\" value=\\"high\\" \\/>\\n\\t\\t\\t\\t<param name=\\"bgcolor\\" value=\\"#ffffff\\" \\/>\\n\\t\\t\\t\\t<param name=\\"play\\" value=\\"true\\" \\/>\\n\\t\\t\\t\\t<param name=\\"loop\\" value=\\"true\\" \\/>\\n\\t\\t\\t\\t<param name=\\"wmode\\" value=\\"window\\" \\/>\\n\\t\\t\\t\\t<param name=\\"scale\\" value=\\"showall\\" \\/>\\n\\t\\t\\t\\t<param name=\\"menu\\" value=\\"true\\" \\/>\\n\\t\\t\\t\\t<param name=\\"devicefont\\" value=\\"false\\" \\/>\\n\\t\\t\\t\\t<param name=\\"salign\\" value=\\"\\" \\/>\\n\\t\\t\\t\\t<param name=\\"allowScriptAccess\\" value=\\"sameDomain\\" \\/>\\n\\t\\t\\t<!--<![endif]-->\\n\\t\\t\\t\\t<a href=\\"http:\\/\\/www.adobe.com\\/go\\/getflash\\">\\n\\t\\t\\t\\t\\t<img src=\\"http:\\/\\/www.adobe.com\\/images\\/shared\\/download_buttons\\/get_flash_player.gif\\" alt=\\"\\u0417\\u0430\\u0433\\u0440\\u0443\\u0437\\u0438\\u0442\\u044c Adobe Flash Player\\" \\/>\\n\\t\\t\\t\\t<\\/a>\\n\\t\\t\\t<!--[if !IE]>-->\\n\\t\\t\\t<\\/object>\\n\\t\\t\\t<!--<![endif]-->\\n\\t\\t<\\/object>\\n    <\\/div>\\n<\\/div>"}',
+);

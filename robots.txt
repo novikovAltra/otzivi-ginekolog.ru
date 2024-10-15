@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /manager/
+Disallow: /polzovatelskoe-soglashenie.html 
+Disallow: /404-stranicza-ne-najdena.html
+Disallow: *?vote
+Host: https://otzivi-ginekolog.ru
+Sitemap: https://otzivi-ginekolog.ru/sitemap.xml

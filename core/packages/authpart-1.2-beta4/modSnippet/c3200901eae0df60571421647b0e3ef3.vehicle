@@ -1,0 +1,60 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      '2269962f3ee314e588c8a65dc51ae74b' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":18,"parent":0,"category":"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0430 \\u043b\\u043e\\u044f\\u043b\\u044c\\u043d\\u043e\\u0441\\u0442\\u0438"}',
+        'guid' => '3b49358a842f1c8d34ad9eb73684f938',
+        'native_key' => 18,
+        'signature' => 'c68b960fa4094050ebff85c79a3a1082',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e2f30275d8e8e89d2fb220c0cb763bcf',
+  'package' => 'modx',
+  'class' => 'modSnippet',
+  'signature' => 'c3200901eae0df60571421647b0e3ef3',
+  'native_key' => 54,
+  'object' => '{"id":54,"source":1,"property_preprocess":0,"name":"loyaltyGetBalance","description":"","editor_type":0,"category":18,"cache_type":0,"snippet":"","locked":0,"properties":"a:0:{}","moduleguid":"","static":1,"static_file":"assets\\/pack_files\\/loyalty\\/elements\\/snippet.loyaltyGetBalance.php","content":""}',
+);

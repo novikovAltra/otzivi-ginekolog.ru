@@ -1,0 +1,68 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      '2e708eb33eed1bdfa955be4e607c844a' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":16,"parent":0,"category":"Office"}',
+        'guid' => '711c79f81ffb60dbb28e5a9a16fc5b39',
+        'native_key' => 16,
+        'signature' => 'c4bca8924f37dd8a3bcf7ad399c89b2b',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modChunk\\/9facdabbe4f981439d76f0b5fbb4b2b2.resolve.chunk.resolver","name":"resolve.chunk"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5c3348ed27b34105d96560d931c66159',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '9facdabbe4f981439d76f0b5fbb4b2b2',
+  'native_key' => 94,
+  'object' => '{"id":94,"source":1,"property_preprocess":0,"name":"tpl.Office.profile.form.custom","description":"","editor_type":0,"category":16,"cache_type":0,"snippet":"<form action=\\"\\" method=\\"post\\" class=\\"form-horizontal well\\" id=\\"office-profile-form\\" enctype=\\"multipart\\/form-data\\">\\n\\t<div class=\\"header\\">\\n\\t\\t<small>[[%office_profile_header]]<\\/small>\\n\\t<\\/div>\\n\\n\\t<div class=\\"form-group avatar\\">\\n\\t\\t<label class=\\"col-sm-2 control-label\\">[[%office_profile_avatar]]<\\/label>\\n\\t\\t<div class=\\"col-sm-10\\">\\n\\t\\t\\t<img src=\\"[[+photo:empty=`[[+gravatar]]?s=100`]]\\" id=\\"profile-user-photo\\" data-gravatar=\\"[[+gravatar]]?s=100\\" width=\\"100\\" \\/>\\n\\t\\t\\t<a href=\\"#\\" id=\\"office-user-photo-remove\\" [[+photo:is=``:then=`style=\\"display:none;\\"`]]>\\n\\t\\t\\t\\t[[%office_profile_avatar_remove]]\\n\\t\\t\\t\\t<i class=\\"glyphicon glyphicon-remove\\"><\\/i>\\n\\t\\t\\t<\\/a>\\n\\t\\t\\t<p class=\\"help-block\\">[[%office_profile_avatar_desc]]<\\/p>\\n\\t\\t\\t<input type=\\"hidden\\" name=\\"photo\\" value=\\"[[+photo]]\\" \\/>\\n\\t\\t\\t<input type=\\"file\\" name=\\"newphoto\\" id=\\"profile-photo\\" \\/>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"form-group\\">\\n\\t\\t<label class=\\"col-sm-2 control-label\\">[[%office_profile_username]]<sup class=\\"red\\">*<\\/sup><\\/label>\\n\\t\\t<div class=\\"col-sm-10\\">\\n\\t\\t\\t<input type=\\"text\\" name=\\"username\\" value=\\"[[+username]]\\" placeholder=\\"[[%office_profile_username]]\\"  class=\\"form-control\\" \\/>\\n\\t\\t\\t<p class=\\"help-block message\\">[[+error_username]]<\\/p>\\n\\t\\t\\t<p class=\\"help-block desc\\">[[%office_profile_username_desc]]<\\/p>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"form-group\\">\\n\\t\\t<label class=\\"col-sm-2 control-label\\">[[%office_profile_fullname]]<sup class=\\"red\\">*<\\/sup><\\/label>\\n\\t\\t<div class=\\"col-sm-10\\">\\n\\t\\t\\t<input type=\\"text\\" name=\\"fullname\\" value=\\"[[+fullname]]\\" placeholder=\\"[[%office_profile_fullname]]\\" class=\\"form-control\\" \\/>\\n\\t\\t\\t<p class=\\"help-block message\\">[[+error_fullname]]<\\/p>\\n\\t\\t\\t<p class=\\"help-block desc\\">[[%office_profile_fullname_desc]]<\\/p>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"form-group\\">\\n\\t\\t<label class=\\"col-sm-2 control-label\\">[[%office_profile_email]]<sup class=\\"red\\">*<\\/sup><\\/label>\\n\\t\\t<div class=\\"col-sm-10\\">\\n\\t\\t\\t<input type=\\"text\\" name=\\"email\\" value=\\"[[+email]]\\" placeholder=\\"[[%office_profile_email]]\\" class=\\"form-control\\" \\/>\\n\\t\\t\\t<p class=\\"help-block message\\">[[+error_email]]<\\/p>\\n\\t\\t\\t<p class=\\"help-block desc\\">[[%office_profile_email_desc]]<\\/p>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"form-group\\">\\n\\t\\t<label class=\\"col-sm-2 control-label\\">[[%office_profile_password]]<\\/label>\\n\\t\\t<div class=\\"col-sm-10\\">\\n\\t\\t\\t<input type=\\"password\\" name=\\"specifiedpassword\\" value=\\"\\" placeholder=\\"********\\" class=\\"form-control\\" \\/>\\n\\t\\t\\t<p class=\\"help-block message\\">[[+error_specifiedpassword]]<\\/p>\\n\\t\\t\\t<p class=\\"help-block desc\\">[[%office_profile_specifiedpassword_desc]]<\\/p>\\n\\t\\t\\t<input type=\\"password\\" name=\\"confirmpassword\\" value=\\"\\" placeholder=\\"********\\" class=\\"form-control\\" \\/>\\n\\t\\t\\t<p class=\\"help-block message\\">[[+error_confirmpassword]]<\\/p>\\n\\t\\t\\t<p class=\\"help-block desc\\">[[%office_profile_confirmpassword_desc]]<\\/p>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n    <div class=\\"form-group\\">\\n\\t\\t<label class=\\"col-sm-2 control-label\\">[[%ha.providers_available]]<\\/label>\\n\\t\\t<div class=\\"col-sm-10\\">\\n\\t\\t\\t[[+providers]]\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\t<div class=\\"form-group\\">\\n\\t\\t<div class=\\"col-sm-offset-2 col-sm-10\\">\\n\\t\\t    <div class=\\"buttons-wrap\\">\\n\\t\\t        <button type=\\"submit\\" class=\\"profile-button\\">[[%office_profile_save]]<\\/button>\\n    \\t\\t\\t<a class=\\"profile-button cansel_button\\" href=\\"[[~1]]?action=auth\\/logout\\">[[%office_profile_logout]]<\\/a>\\n\\t\\t    <\\/div>\\n\\t\\t\\t\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n<\\/form>","locked":0,"properties":"a:0:{}","static":0,"static_file":"core\\/components\\/office\\/elements\\/chunks\\/chunk.profile.form.tpl","content":"<form action=\\"\\" method=\\"post\\" class=\\"form-horizontal well\\" id=\\"office-profile-form\\" enctype=\\"multipart\\/form-data\\">\\n\\t<div class=\\"header\\">\\n\\t\\t<small>[[%office_profile_header]]<\\/small>\\n\\t<\\/div>\\n\\n\\t<div class=\\"form-group avatar\\">\\n\\t\\t<label class=\\"col-sm-2 control-label\\">[[%office_profile_avatar]]<\\/label>\\n\\t\\t<div class=\\"col-sm-10\\">\\n\\t\\t\\t<img src=\\"[[+photo:empty=`[[+gravatar]]?s=100`]]\\" id=\\"profile-user-photo\\" data-gravatar=\\"[[+gravatar]]?s=100\\" width=\\"100\\" \\/>\\n\\t\\t\\t<a href=\\"#\\" id=\\"office-user-photo-remove\\" [[+photo:is=``:then=`style=\\"display:none;\\"`]]>\\n\\t\\t\\t\\t[[%office_profile_avatar_remove]]\\n\\t\\t\\t\\t<i class=\\"glyphicon glyphicon-remove\\"><\\/i>\\n\\t\\t\\t<\\/a>\\n\\t\\t\\t<p class=\\"help-block\\">[[%office_profile_avatar_desc]]<\\/p>\\n\\t\\t\\t<input type=\\"hidden\\" name=\\"photo\\" value=\\"[[+photo]]\\" \\/>\\n\\t\\t\\t<input type=\\"file\\" name=\\"newphoto\\" id=\\"profile-photo\\" \\/>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"form-group\\">\\n\\t\\t<label class=\\"col-sm-2 control-label\\">[[%office_profile_username]]<sup class=\\"red\\">*<\\/sup><\\/label>\\n\\t\\t<div class=\\"col-sm-10\\">\\n\\t\\t\\t<input type=\\"text\\" name=\\"username\\" value=\\"[[+username]]\\" placeholder=\\"[[%office_profile_username]]\\"  class=\\"form-control\\" \\/>\\n\\t\\t\\t<p class=\\"help-block message\\">[[+error_username]]<\\/p>\\n\\t\\t\\t<p class=\\"help-block desc\\">[[%office_profile_username_desc]]<\\/p>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"form-group\\">\\n\\t\\t<label class=\\"col-sm-2 control-label\\">[[%office_profile_fullname]]<sup class=\\"red\\">*<\\/sup><\\/label>\\n\\t\\t<div class=\\"col-sm-10\\">\\n\\t\\t\\t<input type=\\"text\\" name=\\"fullname\\" value=\\"[[+fullname]]\\" placeholder=\\"[[%office_profile_fullname]]\\" class=\\"form-control\\" \\/>\\n\\t\\t\\t<p class=\\"help-block message\\">[[+error_fullname]]<\\/p>\\n\\t\\t\\t<p class=\\"help-block desc\\">[[%office_profile_fullname_desc]]<\\/p>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"form-group\\">\\n\\t\\t<label class=\\"col-sm-2 control-label\\">[[%office_profile_email]]<sup class=\\"red\\">*<\\/sup><\\/label>\\n\\t\\t<div class=\\"col-sm-10\\">\\n\\t\\t\\t<input type=\\"text\\" name=\\"email\\" value=\\"[[+email]]\\" placeholder=\\"[[%office_profile_email]]\\" class=\\"form-control\\" \\/>\\n\\t\\t\\t<p class=\\"help-block message\\">[[+error_email]]<\\/p>\\n\\t\\t\\t<p class=\\"help-block desc\\">[[%office_profile_email_desc]]<\\/p>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n\\t<div class=\\"form-group\\">\\n\\t\\t<label class=\\"col-sm-2 control-label\\">[[%office_profile_password]]<\\/label>\\n\\t\\t<div class=\\"col-sm-10\\">\\n\\t\\t\\t<input type=\\"password\\" name=\\"specifiedpassword\\" value=\\"\\" placeholder=\\"********\\" class=\\"form-control\\" \\/>\\n\\t\\t\\t<p class=\\"help-block message\\">[[+error_specifiedpassword]]<\\/p>\\n\\t\\t\\t<p class=\\"help-block desc\\">[[%office_profile_specifiedpassword_desc]]<\\/p>\\n\\t\\t\\t<input type=\\"password\\" name=\\"confirmpassword\\" value=\\"\\" placeholder=\\"********\\" class=\\"form-control\\" \\/>\\n\\t\\t\\t<p class=\\"help-block message\\">[[+error_confirmpassword]]<\\/p>\\n\\t\\t\\t<p class=\\"help-block desc\\">[[%office_profile_confirmpassword_desc]]<\\/p>\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\n    <div class=\\"form-group\\">\\n\\t\\t<label class=\\"col-sm-2 control-label\\">[[%ha.providers_available]]<\\/label>\\n\\t\\t<div class=\\"col-sm-10\\">\\n\\t\\t\\t[[+providers]]\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\t<div class=\\"form-group\\">\\n\\t\\t<div class=\\"col-sm-offset-2 col-sm-10\\">\\n\\t\\t    <div class=\\"buttons-wrap\\">\\n\\t\\t        <button type=\\"submit\\" class=\\"profile-button\\">[[%office_profile_save]]<\\/button>\\n    \\t\\t\\t<a class=\\"profile-button cansel_button\\" href=\\"[[~1]]?action=auth\\/logout\\">[[%office_profile_logout]]<\\/a>\\n\\t\\t    <\\/div>\\n\\t\\t\\t\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n<\\/form>"}',
+);

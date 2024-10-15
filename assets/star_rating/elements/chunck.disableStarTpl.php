@@ -1,0 +1,1 @@
+<li class="star"><span>[[+idx]]</span></li>

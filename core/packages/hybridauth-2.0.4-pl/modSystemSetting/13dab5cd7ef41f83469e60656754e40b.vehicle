@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'hybridauth',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '448d26ec5a4da02a1229557a3020c90c',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '13dab5cd7ef41f83469e60656754e40b',
+  'native_key' => 'ha.frontend_css',
+  'object' => '{"key":"ha.frontend_css","value":"[[+assetsUrl]]css\\/web\\/default.css","xtype":"textfield","namespace":"hybridauth","area":"ha.main","editedon":null}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a7aa274a46e67fa420f4b7e847ac5958',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '9e4057173f84ba0325e4f6bdfdbb879e',
+  'native_key' => 'import_remove_missing_products',
+  'object' => '{"key":"import_remove_missing_products","value":false,"xtype":"combo-boolean","namespace":"msimport","area":"msimport_settings_resource","editedon":null}',
+);

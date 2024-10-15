@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '36fe6cc63337cfe982ccc53d4b762347',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c612e9c40b014cad137ae1af03d8a2d9',
+  'native_key' => 'import_product_tvs_sheme',
+  'object' => '{"key":"import_product_tvs_sheme","value":"{}","xtype":"textarea","namespace":"msimport","area":"msimport_settings_resource","editedon":null}',
+);

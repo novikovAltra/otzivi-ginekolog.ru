@@ -1,0 +1,227 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '51d3271f1e3e4e255aa704da82c4e63a' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"tpl.HybridAuth.login","description":"Chunk for guest","editor_type":0,"category":0,"cache_type":0,"snippet":"[[%ha.login_intro]]\\n<br\\/>\\n[[+providers]]\\n\\n[[+error:notempty=`\\n<div class=\\"alert alert-block alert-error\\">[[+error]]<\\/div>`]]","locked":0,"properties":null,"static":0,"static_file":"core\\/components\\/hybridauth\\/elements\\/chunks\\/chunk.login.tpl","content":"[[%ha.login_intro]]\\n<br\\/>\\n[[+providers]]\\n\\n[[+error:notempty=`\\n<div class=\\"alert alert-block alert-error\\">[[+error]]<\\/div>`]]"}',
+        'guid' => 'c5173b51932cc39d8a157321e9b5fd69',
+        'native_key' => 0,
+        'signature' => 'f3df14db796a670ab494de232569dacc',
+      ),
+      'f22308cb5f301cae5aff8d9610e11715' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"tpl.HybridAuth.logout","description":"Chunk for logged in","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"hybridauth\\">\\n    <img src=\\"[[+gravatar]]?s=75\\" alt=\\"[[+username]]\\" title=\\"[[+fullname]]\\" class=\\"ha-avatar\\"\\/>\\n\\n    <span class=\\"ha-info\\">\\n        [[%ha.greeting]] <b>[[+username]]<\\/b> ([[+fullname]])! <a href=\\"[[+logout_url]]\\">[[%ha.logout]]<\\/a>\\n        <br\\/><br\\/>\\n        <small>[[%ha.providers_available]]<\\/small><br\\/>\\n        [[+providers]]\\n    <\\/span>\\n\\n<\\/div>\\n\\n[[+error:notempty=`\\n<div class=\\"alert alert-block alert-error\\">[[+error]]<\\/div>`]]\\n","locked":0,"properties":null,"static":0,"static_file":"core\\/components\\/hybridauth\\/elements\\/chunks\\/chunk.logout.tpl","content":"<div class=\\"hybridauth\\">\\n    <img src=\\"[[+gravatar]]?s=75\\" alt=\\"[[+username]]\\" title=\\"[[+fullname]]\\" class=\\"ha-avatar\\"\\/>\\n\\n    <span class=\\"ha-info\\">\\n        [[%ha.greeting]] <b>[[+username]]<\\/b> ([[+fullname]])! <a href=\\"[[+logout_url]]\\">[[%ha.logout]]<\\/a>\\n        <br\\/><br\\/>\\n        <small>[[%ha.providers_available]]<\\/small><br\\/>\\n        [[+providers]]\\n    <\\/span>\\n\\n<\\/div>\\n\\n[[+error:notempty=`\\n<div class=\\"alert alert-block alert-error\\">[[+error]]<\\/div>`]]\\n"}',
+        'guid' => 'db82ec148bbee77e45aa65a86c4d01cf',
+        'native_key' => 0,
+        'signature' => 'f216238136306bdeb67c9293bff1230e',
+      ),
+      '1f1d8cc5257ba14e1c5bb05fbe8ebf6e' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"tpl.HybridAuth.profile","description":"Chunk for profile update","editor_type":0,"category":0,"cache_type":0,"snippet":"<form action=\\"[[~[[*id]]]]\\" method=\\"post\\" class=\\"form-horizontal\\">\\n\\n    <div class=\\"control-group\\">\\n        <label class=\\"control-label\\">[[%ha.gravatar]]<\\/label>\\n        <div class=\\"controls\\">\\n            <img src=\\"[[+gravatar]]?s=100\\" alt=\\"[[+email]]\\" title=\\"[[+email]]\\" style=\\"margin-left:40px;\\"\\/>\\n            <br\\/>\\n            <small>[[%ha.gravatar_desc]]<\\/small>\\n        <\\/div>\\n    <\\/div>\\n\\n    <div class=\\"control-group[[+error.username:notempty=` error`]]\\">\\n        <label class=\\"control-label\\">[[%ha.username]]<\\/label>\\n        <div class=\\"controls\\">\\n            <input type=\\"text\\" name=\\"username\\" value=\\"[[+username]]\\"\\/>\\n            <span class=\\"help-inline\\">[[+error.username]]<\\/span>\\n        <\\/div>\\n    <\\/div>\\n\\n    <div class=\\"control-group[[+error.fullname:notempty=` error`]]\\">\\n        <label class=\\"control-label\\">[[%ha.fullname]]<\\/label>\\n        <div class=\\"controls\\">\\n            <input type=\\"text\\" name=\\"fullname\\" value=\\"[[+fullname]]\\"\\/>\\n            <span class=\\"help-inline\\">[[+error.fullname]]<\\/span>\\n        <\\/div>\\n    <\\/div>\\n\\n    <div class=\\"control-group[[+error.email:notempty=` error`]]\\">\\n        <label class=\\"control-label\\">[[%ha.email]]<\\/label>\\n        <div class=\\"controls\\">\\n            <input type=\\"text\\" name=\\"email\\" value=\\"[[+email]]\\"\\/>\\n            <span class=\\"help-inline\\">[[+error.email]]<\\/span>\\n        <\\/div>\\n    <\\/div>\\n\\n    <div class=\\"control-group\\">\\n        <label class=\\"control-label\\">[[%ha.providers_available]]<\\/label>\\n        <div class=\\"controls\\">\\n            [[+providers]]\\n        <\\/div>\\n    <\\/div>\\n\\n    <input type=\\"hidden\\" name=\\"hauth_action\\" value=\\"updateProfile\\"\\/>\\n    <div class=\\"form-actions\\">\\n        <button type=\\"submit\\" class=\\"btn btn-primary\\">[[%ha.save_profile]]<\\/button>\\n        &nbsp;&nbsp;\\n        <a href=\\"[[+logout_url]]\\" class=\\"btn btn-danger\\">[[%ha.logout]]<\\/a>\\n    <\\/div>\\n<\\/form>\\n[[+success:is=`1`:then=`\\n<div class=\\"alert alert-block\\">[[%ha.profile_update_success]]<\\/div>`]]\\n[[+success:is=`0`:then=`\\n<div class=\\"alert alert-block alert-error\\">[[%ha.profile_update_error]] [[+error.message]]<\\/div>`]]","locked":0,"properties":null,"static":0,"static_file":"core\\/components\\/hybridauth\\/elements\\/chunks\\/chunk.profile.tpl","content":"<form action=\\"[[~[[*id]]]]\\" method=\\"post\\" class=\\"form-horizontal\\">\\n\\n    <div class=\\"control-group\\">\\n        <label class=\\"control-label\\">[[%ha.gravatar]]<\\/label>\\n        <div class=\\"controls\\">\\n            <img src=\\"[[+gravatar]]?s=100\\" alt=\\"[[+email]]\\" title=\\"[[+email]]\\" style=\\"margin-left:40px;\\"\\/>\\n            <br\\/>\\n            <small>[[%ha.gravatar_desc]]<\\/small>\\n        <\\/div>\\n    <\\/div>\\n\\n    <div class=\\"control-group[[+error.username:notempty=` error`]]\\">\\n        <label class=\\"control-label\\">[[%ha.username]]<\\/label>\\n        <div class=\\"controls\\">\\n            <input type=\\"text\\" name=\\"username\\" value=\\"[[+username]]\\"\\/>\\n            <span class=\\"help-inline\\">[[+error.username]]<\\/span>\\n        <\\/div>\\n    <\\/div>\\n\\n    <div class=\\"control-group[[+error.fullname:notempty=` error`]]\\">\\n        <label class=\\"control-label\\">[[%ha.fullname]]<\\/label>\\n        <div class=\\"controls\\">\\n            <input type=\\"text\\" name=\\"fullname\\" value=\\"[[+fullname]]\\"\\/>\\n            <span class=\\"help-inline\\">[[+error.fullname]]<\\/span>\\n        <\\/div>\\n    <\\/div>\\n\\n    <div class=\\"control-group[[+error.email:notempty=` error`]]\\">\\n        <label class=\\"control-label\\">[[%ha.email]]<\\/label>\\n        <div class=\\"controls\\">\\n            <input type=\\"text\\" name=\\"email\\" value=\\"[[+email]]\\"\\/>\\n            <span class=\\"help-inline\\">[[+error.email]]<\\/span>\\n        <\\/div>\\n    <\\/div>\\n\\n    <div class=\\"control-group\\">\\n        <label class=\\"control-label\\">[[%ha.providers_available]]<\\/label>\\n        <div class=\\"controls\\">\\n            [[+providers]]\\n        <\\/div>\\n    <\\/div>\\n\\n    <input type=\\"hidden\\" name=\\"hauth_action\\" value=\\"updateProfile\\"\\/>\\n    <div class=\\"form-actions\\">\\n        <button type=\\"submit\\" class=\\"btn btn-primary\\">[[%ha.save_profile]]<\\/button>\\n        &nbsp;&nbsp;\\n        <a href=\\"[[+logout_url]]\\" class=\\"btn btn-danger\\">[[%ha.logout]]<\\/a>\\n    <\\/div>\\n<\\/form>\\n[[+success:is=`1`:then=`\\n<div class=\\"alert alert-block\\">[[%ha.profile_update_success]]<\\/div>`]]\\n[[+success:is=`0`:then=`\\n<div class=\\"alert alert-block alert-error\\">[[%ha.profile_update_error]] [[+error.message]]<\\/div>`]]"}',
+        'guid' => 'cf0852a622e4267300c5c9dadb08d440',
+        'native_key' => 0,
+        'signature' => '9ab13b48ce6552ca8fcac9be8e625ae7',
+      ),
+      '40abb0f036150528dffc4b466088fdab' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"tpl.HybridAuth.provider","description":"Chunk for authorization provider","editor_type":0,"category":0,"cache_type":0,"snippet":"<a href=\\"[[+login_url]]&amp;provider=[[+title]]\\" class=\\"ha-icon [[+provider]]\\" rel=\\"nofollow\\" title=\\"[[+title]]\\">[[+title]]<\\/a>\\n","locked":0,"properties":null,"static":0,"static_file":"core\\/components\\/hybridauth\\/elements\\/chunks\\/chunk.provider.tpl","content":"<a href=\\"[[+login_url]]&amp;provider=[[+title]]\\" class=\\"ha-icon [[+provider]]\\" rel=\\"nofollow\\" title=\\"[[+title]]\\">[[+title]]<\\/a>\\n"}',
+        'guid' => 'd4c0f7d60b0d484bc1bebc1c7bc5964b',
+        'native_key' => 0,
+        'signature' => 'f4b4204e52f7be4a0cadc981b264ecf4',
+      ),
+      '479da8a2f4eac839ac55918816eae19e' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"tpl.HybridAuth.provider.active","description":"Chunk for active authorization provider","editor_type":0,"category":0,"cache_type":0,"snippet":"<a href=\\"[[+unbind_url]]&amp;provider=[[+title]]\\" class=\\"ha-icon active [[+provider]]\\" rel=\\"nofollow\\" title=\\"[[+title]]\\">[[+title]]<\\/a>\\n","locked":0,"properties":null,"static":0,"static_file":"core\\/components\\/hybridauth\\/elements\\/chunks\\/chunk.provider_active.tpl","content":"<a href=\\"[[+unbind_url]]&amp;provider=[[+title]]\\" class=\\"ha-icon active [[+provider]]\\" rel=\\"nofollow\\" title=\\"[[+title]]\\">[[+title]]<\\/a>\\n"}',
+        'guid' => '4f6a6f84ace9b96670437afd6ffcdefd',
+        'native_key' => 0,
+        'signature' => '1427298837aa88601598356c3c58a208',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'c5f2861d3a70c92833070fd8cbaca741' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"HybridAuth","description":"Social authorization","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/** @var array $scriptProperties *\\/\\n\\n$modx->error->message = null;\\nif (!$modx->loadClass(\'hybridauth\', MODX_CORE_PATH . \'components\\/hybridauth\\/model\\/hybridauth\\/\', false, true)) {\\n    return;\\n}\\n$HybridAuth = new HybridAuth($modx, $scriptProperties);\\n$HybridAuth->initialize($modx->context->key);\\n\\nif ($modx->error->hasError()) {\\n    return $modx->error->message;\\n} \\/\\/ For compatibility with old snippet\\nelseif (!empty($action)) {\\n    $tmp = strtolower($action);\\n    if ($tmp == \'getprofile\' || $tmp == \'updateprofile\') {\\n        return $modx->runSnippet(\'haProfile\', $scriptProperties);\\n    }\\n}\\n\\nif (empty($loginTpl)) {\\n    $loginTpl = \'tpl.HybridAuth.login\';\\n}\\nif (empty($logoutTpl)) {\\n    $logoutTpl = \'tpl.HybridAuth.logout\';\\n}\\nif (empty($providerTpl)) {\\n    $providerTpl = \'tpl.HybridAuth.provider\';\\n}\\nif (empty($activeProviderTpl)) {\\n    $activeProviderTpl = \'tpl.HybridAuth.provider.active\';\\n}\\n\\n$url = $HybridAuth->getUrl();\\n$error = \'\';\\nif (!empty($_SESSION[\'HA\'][\'error\'])) {\\n    $error = $_SESSION[\'HA\'][\'error\'];\\n    unset($_SESSION[\'HA\'][\'error\']);\\n}\\n\\nif ($modx->user->isAuthenticated($modx->context->key)) {\\n    $add = array();\\n    if ($services = $modx->user->getMany(\'Services\')) {\\n        \\/** @var haUserService $service *\\/\\n        foreach ($services as $service) {\\n            $add = array_merge($add, $service->toArray(strtolower($service->get(\'provider\') . \'.\')));\\n        }\\n    }\\n\\n    $user = $modx->user->toArray();\\n    $profile = $modx->user->Profile->toArray();\\n    unset($profile[\'id\']);\\n    $arr = array_merge(\\n        $user,\\n        $profile,\\n        $add,\\n        array(\\n            \'login_url\' => $url . \'login\',\\n            \'logout_url\' => $url . \'logout\',\\n            \'providers\' => $HybridAuth->getProvidersLinks($providerTpl, $activeProviderTpl),\\n            \'error\' => $error,\\n            \'gravatar\' => \'https:\\/\\/gravatar.com\\/avatar\\/\' . md5(strtolower($profile[\'email\'])),\\n        )\\n    );\\n\\n    return $HybridAuth->getChunk($logoutTpl, $arr);\\n} else {\\n    $arr = array(\\n        \'login_url\' => $url . \'login\',\\n        \'logout_url\' => $url . \'logout\',\\n        \'providers\' => $HybridAuth->getProvidersLinks($providerTpl, $activeProviderTpl),\\n        \'error\' => $error,\\n    );\\n\\n    return $HybridAuth->getChunk($loginTpl, $arr);\\n}","locked":0,"properties":"a:12:{s:9:\\"providers\\";a:7:{s:4:\\"name\\";s:9:\\"providers\\";s:4:\\"desc\\";s:12:\\"ha.providers\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:10:\\"rememberme\\";a:7:{s:4:\\"name\\";s:10:\\"rememberme\\";s:4:\\"desc\\";s:13:\\"ha.rememberme\\";s:4:\\"type\\";s:13:\\"combo-boolean\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";b:1;s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:8:\\"loginTpl\\";a:7:{s:4:\\"name\\";s:8:\\"loginTpl\\";s:4:\\"desc\\";s:11:\\"ha.loginTpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:20:\\"tpl.HybridAuth.login\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:9:\\"logoutTpl\\";a:7:{s:4:\\"name\\";s:9:\\"logoutTpl\\";s:4:\\"desc\\";s:12:\\"ha.logoutTpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:21:\\"tpl.HybridAuth.logout\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:11:\\"providerTpl\\";a:7:{s:4:\\"name\\";s:11:\\"providerTpl\\";s:4:\\"desc\\";s:14:\\"ha.providerTpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:23:\\"tpl.HybridAuth.provider\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:17:\\"activeProviderTpl\\";a:7:{s:4:\\"name\\";s:17:\\"activeProviderTpl\\";s:4:\\"desc\\";s:20:\\"ha.activeProviderTpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:30:\\"tpl.HybridAuth.provider.active\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:6:\\"groups\\";a:7:{s:4:\\"name\\";s:6:\\"groups\\";s:4:\\"desc\\";s:9:\\"ha.groups\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:12:\\"loginContext\\";a:7:{s:4:\\"name\\";s:12:\\"loginContext\\";s:4:\\"desc\\";s:15:\\"ha.loginContext\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:11:\\"addContexts\\";a:7:{s:4:\\"name\\";s:11:\\"addContexts\\";s:4:\\"desc\\";s:14:\\"ha.addContexts\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:15:\\"loginResourceId\\";a:7:{s:4:\\"name\\";s:15:\\"loginResourceId\\";s:4:\\"desc\\";s:18:\\"ha.loginResourceId\\";s:4:\\"type\\";s:11:\\"numberfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";i:0;s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:16:\\"logoutResourceId\\";a:7:{s:4:\\"name\\";s:16:\\"logoutResourceId\\";s:4:\\"desc\\";s:19:\\"ha.logoutResourceId\\";s:4:\\"type\\";s:11:\\"numberfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";i:0;s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:11:\\"redirectUri\\";a:7:{s:4:\\"name\\";s:11:\\"redirectUri\\";s:4:\\"desc\\";s:14:\\"ha.redirectUri\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:0:\\"\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}}","moduleguid":"","static":0,"static_file":"core\\/components\\/hybridauth\\/elements\\/snippets\\/snippet.hybridauth.php","content":"\\/** @var array $scriptProperties *\\/\\n\\n$modx->error->message = null;\\nif (!$modx->loadClass(\'hybridauth\', MODX_CORE_PATH . \'components\\/hybridauth\\/model\\/hybridauth\\/\', false, true)) {\\n    return;\\n}\\n$HybridAuth = new HybridAuth($modx, $scriptProperties);\\n$HybridAuth->initialize($modx->context->key);\\n\\nif ($modx->error->hasError()) {\\n    return $modx->error->message;\\n} \\/\\/ For compatibility with old snippet\\nelseif (!empty($action)) {\\n    $tmp = strtolower($action);\\n    if ($tmp == \'getprofile\' || $tmp == \'updateprofile\') {\\n        return $modx->runSnippet(\'haProfile\', $scriptProperties);\\n    }\\n}\\n\\nif (empty($loginTpl)) {\\n    $loginTpl = \'tpl.HybridAuth.login\';\\n}\\nif (empty($logoutTpl)) {\\n    $logoutTpl = \'tpl.HybridAuth.logout\';\\n}\\nif (empty($providerTpl)) {\\n    $providerTpl = \'tpl.HybridAuth.provider\';\\n}\\nif (empty($activeProviderTpl)) {\\n    $activeProviderTpl = \'tpl.HybridAuth.provider.active\';\\n}\\n\\n$url = $HybridAuth->getUrl();\\n$error = \'\';\\nif (!empty($_SESSION[\'HA\'][\'error\'])) {\\n    $error = $_SESSION[\'HA\'][\'error\'];\\n    unset($_SESSION[\'HA\'][\'error\']);\\n}\\n\\nif ($modx->user->isAuthenticated($modx->context->key)) {\\n    $add = array();\\n    if ($services = $modx->user->getMany(\'Services\')) {\\n        \\/** @var haUserService $service *\\/\\n        foreach ($services as $service) {\\n            $add = array_merge($add, $service->toArray(strtolower($service->get(\'provider\') . \'.\')));\\n        }\\n    }\\n\\n    $user = $modx->user->toArray();\\n    $profile = $modx->user->Profile->toArray();\\n    unset($profile[\'id\']);\\n    $arr = array_merge(\\n        $user,\\n        $profile,\\n        $add,\\n        array(\\n            \'login_url\' => $url . \'login\',\\n            \'logout_url\' => $url . \'logout\',\\n            \'providers\' => $HybridAuth->getProvidersLinks($providerTpl, $activeProviderTpl),\\n            \'error\' => $error,\\n            \'gravatar\' => \'https:\\/\\/gravatar.com\\/avatar\\/\' . md5(strtolower($profile[\'email\'])),\\n        )\\n    );\\n\\n    return $HybridAuth->getChunk($logoutTpl, $arr);\\n} else {\\n    $arr = array(\\n        \'login_url\' => $url . \'login\',\\n        \'logout_url\' => $url . \'logout\',\\n        \'providers\' => $HybridAuth->getProvidersLinks($providerTpl, $activeProviderTpl),\\n        \'error\' => $error,\\n    );\\n\\n    return $HybridAuth->getChunk($loginTpl, $arr);\\n}"}',
+        'guid' => 'faece1a1212365cc15a37fcdae15f234',
+        'native_key' => 0,
+        'signature' => '17e24171c8745b0023699273f1a6d8aa',
+      ),
+      'd43fccde8fe33f0a1314c7cb41daaaa4' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"haProfile","description":"Update your profile","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/** @var array $scriptProperties *\\/\\n\\n$modx->error->message = null;\\nif (!$modx->loadClass(\'hybridauth\', MODX_CORE_PATH . \'components\\/hybridauth\\/model\\/hybridauth\\/\', false, true)) {\\n    return;\\n}\\n$HybridAuth = new HybridAuth($modx, $scriptProperties);\\n$HybridAuth->initialize($modx->context->key);\\n\\nif ($modx->error->hasError()) {\\n    return $modx->error->message;\\n} elseif (!$modx->user->isAuthenticated($modx->context->key)) {\\n    return $modx->lexicon(\'ha_err_not_logged_in\');\\n}\\n\\nif (empty($profileTpl)) {\\n    $profileTpl = \'tpl.HybridAuth.profile\';\\n}\\nif (empty($profileFields)) {\\n    $profileFields = \'username:25,email:50,fullname:50,phone:12,mobilephone:12,dob:10,gender,address,country,city,state,zip,fax,photo,comment,website\';\\n}\\nif (empty($requiredFields)) {\\n    $requiredFields = \'username,email,fullname\';\\n}\\nif (empty($providerTpl)) {\\n    $providerTpl = \'tpl.HybridAuth.provider\';\\n}\\nif (empty($activeProviderTpl)) {\\n    $activeProviderTpl = \'tpl.HybridAuth.provider.active\';\\n}\\n$data = array();\\n\\n\\/\\/ Update of profile\\nif ((!empty($_REQUEST[\'action\']) && strtolower($_REQUEST[\'action\']) == \'updateprofile\') || (!empty($_REQUEST[\'hauth_action\']) && strtolower($_REQUEST[\'hauth_action\']) == \'updateprofile\')) {\\n    $profileFields = array_map(\'trim\', explode(\',\', $profileFields));\\n    foreach ($profileFields as $field) {\\n        if (strpos($field, \':\') !== false) {\\n            list($key, $length) = explode(\':\', $field);\\n        } else {\\n            $key = $field;\\n            $length = 0;\\n        }\\n\\n        if (isset($_REQUEST[$key])) {\\n            if ($key == \'comment\') {\\n                $data[$key] = empty($length) ? $_REQUEST[$key] : substr($_REQUEST[$key], $length);\\n            } else {\\n                $data[$key] = $HybridAuth->Sanitize($_REQUEST[$key], $length);\\n            }\\n        }\\n    }\\n\\n    $data[\'requiredFields\'] = array_map(\'trim\', explode(\',\', $requiredFields));\\n\\n    \\/** @var modProcessorResponse $response *\\/\\n    $response = $HybridAuth->runProcessor(\'web\\/user\\/update\', $data);\\n    if ($response->isError()) {\\n        $data[\'error.message\'] = $response->getMessage();\\n        foreach ($response->errors as $error) {\\n            $data[\'error.\' . $error->field] = $error->message;\\n        }\\n    }\\n    $data[\'success\'] = (integer)!$response->isError();\\n}\\n\\n$add = array();\\nif ($services = $modx->user->getMany(\'Services\')) {\\n    \\/** @var haUserService $service *\\/\\n    foreach ($services as $service) {\\n        $add = array_merge($add, $service->toArray(strtolower($service->get(\'provider\') . \'.\')));\\n    }\\n}\\n\\n$url = $HybridAuth->getUrl();\\n$user = $modx->user->toArray();\\n$profile = $modx->user->Profile->toArray();\\n$data = array_merge(\\n    $user,\\n    $profile,\\n    $add,\\n    $data,\\n    array(\\n        \'login_url\' => $url . \'login\',\\n        \'logout_url\' => $url . \'logout\',\\n        \'providers\' => $HybridAuth->getProvidersLinks($providerTpl, $activeProviderTpl),\\n        \'gravatar\' => \'https:\\/\\/gravatar.com\\/avatar\\/\' . md5(strtolower($profile[\'email\'])),\\n    )\\n);\\n\\nreturn $HybridAuth->getChunk($profileTpl, $data);","locked":0,"properties":"a:5:{s:10:\\"profileTpl\\";a:7:{s:4:\\"name\\";s:10:\\"profileTpl\\";s:4:\\"desc\\";s:13:\\"ha.profileTpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:22:\\"tpl.HybridAuth.profile\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:13:\\"profileFields\\";a:7:{s:4:\\"name\\";s:13:\\"profileFields\\";s:4:\\"desc\\";s:16:\\"ha.profileFields\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:127:\\"username:25,email:50,fullname:50,phone:12,mobilephone:12,dob:10,gender,address,country,city,state,zip,fax,photo,comment,website\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:14:\\"requiredFields\\";a:7:{s:4:\\"name\\";s:14:\\"requiredFields\\";s:4:\\"desc\\";s:17:\\"ha.requiredFields\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:23:\\"username,email,fullname\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:11:\\"providerTpl\\";a:7:{s:4:\\"name\\";s:11:\\"providerTpl\\";s:4:\\"desc\\";s:14:\\"ha.providerTpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:23:\\"tpl.HybridAuth.provider\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}s:17:\\"activeProviderTpl\\";a:7:{s:4:\\"name\\";s:17:\\"activeProviderTpl\\";s:4:\\"desc\\";s:20:\\"ha.activeProviderTpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:30:\\"tpl.HybridAuth.provider.active\\";s:7:\\"lexicon\\";s:21:\\"hybridauth:properties\\";s:4:\\"area\\";s:0:\\"\\";}}","moduleguid":"","static":0,"static_file":"core\\/components\\/hybridauth\\/elements\\/snippets\\/snippet.haprofile.php","content":"\\/** @var array $scriptProperties *\\/\\n\\n$modx->error->message = null;\\nif (!$modx->loadClass(\'hybridauth\', MODX_CORE_PATH . \'components\\/hybridauth\\/model\\/hybridauth\\/\', false, true)) {\\n    return;\\n}\\n$HybridAuth = new HybridAuth($modx, $scriptProperties);\\n$HybridAuth->initialize($modx->context->key);\\n\\nif ($modx->error->hasError()) {\\n    return $modx->error->message;\\n} elseif (!$modx->user->isAuthenticated($modx->context->key)) {\\n    return $modx->lexicon(\'ha_err_not_logged_in\');\\n}\\n\\nif (empty($profileTpl)) {\\n    $profileTpl = \'tpl.HybridAuth.profile\';\\n}\\nif (empty($profileFields)) {\\n    $profileFields = \'username:25,email:50,fullname:50,phone:12,mobilephone:12,dob:10,gender,address,country,city,state,zip,fax,photo,comment,website\';\\n}\\nif (empty($requiredFields)) {\\n    $requiredFields = \'username,email,fullname\';\\n}\\nif (empty($providerTpl)) {\\n    $providerTpl = \'tpl.HybridAuth.provider\';\\n}\\nif (empty($activeProviderTpl)) {\\n    $activeProviderTpl = \'tpl.HybridAuth.provider.active\';\\n}\\n$data = array();\\n\\n\\/\\/ Update of profile\\nif ((!empty($_REQUEST[\'action\']) && strtolower($_REQUEST[\'action\']) == \'updateprofile\') || (!empty($_REQUEST[\'hauth_action\']) && strtolower($_REQUEST[\'hauth_action\']) == \'updateprofile\')) {\\n    $profileFields = array_map(\'trim\', explode(\',\', $profileFields));\\n    foreach ($profileFields as $field) {\\n        if (strpos($field, \':\') !== false) {\\n            list($key, $length) = explode(\':\', $field);\\n        } else {\\n            $key = $field;\\n            $length = 0;\\n        }\\n\\n        if (isset($_REQUEST[$key])) {\\n            if ($key == \'comment\') {\\n                $data[$key] = empty($length) ? $_REQUEST[$key] : substr($_REQUEST[$key], $length);\\n            } else {\\n                $data[$key] = $HybridAuth->Sanitize($_REQUEST[$key], $length);\\n            }\\n        }\\n    }\\n\\n    $data[\'requiredFields\'] = array_map(\'trim\', explode(\',\', $requiredFields));\\n\\n    \\/** @var modProcessorResponse $response *\\/\\n    $response = $HybridAuth->runProcessor(\'web\\/user\\/update\', $data);\\n    if ($response->isError()) {\\n        $data[\'error.message\'] = $response->getMessage();\\n        foreach ($response->errors as $error) {\\n            $data[\'error.\' . $error->field] = $error->message;\\n        }\\n    }\\n    $data[\'success\'] = (integer)!$response->isError();\\n}\\n\\n$add = array();\\nif ($services = $modx->user->getMany(\'Services\')) {\\n    \\/** @var haUserService $service *\\/\\n    foreach ($services as $service) {\\n        $add = array_merge($add, $service->toArray(strtolower($service->get(\'provider\') . \'.\')));\\n    }\\n}\\n\\n$url = $HybridAuth->getUrl();\\n$user = $modx->user->toArray();\\n$profile = $modx->user->Profile->toArray();\\n$data = array_merge(\\n    $user,\\n    $profile,\\n    $add,\\n    $data,\\n    array(\\n        \'login_url\' => $url . \'login\',\\n        \'logout_url\' => $url . \'logout\',\\n        \'providers\' => $HybridAuth->getProvidersLinks($providerTpl, $activeProviderTpl),\\n        \'gravatar\' => \'https:\\/\\/gravatar.com\\/avatar\\/\' . md5(strtolower($profile[\'email\'])),\\n    )\\n);\\n\\nreturn $HybridAuth->getChunk($profileTpl, $data);"}',
+        'guid' => '35e5be8b9956add896bc3a764fd58c1f',
+        'native_key' => 0,
+        'signature' => 'f4b3f135deab1c3ad32c6f6b4c00d158',
+      ),
+    ),
+    'Plugins' => 
+    array (
+      'fb4afe38850a8ec4309f9c7b57a179e7' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modPlugin',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"HybridAuth","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"switch ($modx->event->name) {\\n\\n    case \'OnHandleRequest\':\\n        if ($modx->context->key != \'web\' && !$modx->user->id) {\\n            if ($user = $modx->getAuthenticatedUser($modx->context->key)) {\\n                $modx->user = $user;\\n                $modx->getUser($modx->context->key);\\n            }\\n        }\\n\\n        if ($modx->user->isAuthenticated($modx->context->key)) {\\n            if (!$modx->user->active || $modx->user->Profile->blocked) {\\n                $modx->runProcessor(\'security\\/logout\');\\n                $modx->sendRedirect($modx->makeUrl($modx->getOption(\'site_start\'), \'\', \'\', \'full\'));\\n            }\\n        }\\n\\n        if (!empty($_REQUEST[\'hauth_action\']) || !empty($_REQUEST[\'hauth_start\']) || !empty($_REQUEST[\'hauth_done\'])) {\\n            $config = !empty($_SESSION[\'HybridAuth\'][$modx->context->key])\\n                ? $_SESSION[\'HybridAuth\'][$modx->context->key]\\n                : array();\\n\\n            $path = MODX_CORE_PATH . \'components\\/hybridauth\\/model\\/hybridauth\\/\';\\n            \\/** @var HybridAuth $HybridAuth *\\/\\n            if ($HybridAuth = $modx->getService(\'HybridAuth\', \'HybridAuth\', $path, $config)) {\\n                if (!empty($_REQUEST[\'hauth_action\'])) {\\n                    switch ($_REQUEST[\'hauth_action\']) {\\n                        case \'login\':\\n                            if (!empty($_REQUEST[\'provider\'])) {\\n                                $HybridAuth->Login($_REQUEST[\'provider\']);\\n                            } else {\\n                                $HybridAuth->Refresh();\\n                            }\\n                            break;\\n                        case \'logout\':\\n                            $HybridAuth->Logout();\\n                            break;\\n                        case \'unbind\':\\n                            if (!empty($_REQUEST[\'provider\'])) {\\n                                $HybridAuth->runProcessor(\'web\\/service\\/remove\', array(\\n                                    \'provider\' => $_REQUEST[\'provider\'],\\n                                ));\\n                            }\\n                            $HybridAuth->Refresh();\\n                            break;\\n                    }\\n                } else {\\n                    $HybridAuth->processAuth();\\n                }\\n            }\\n        }\\n        break;\\n\\n    case \'OnWebAuthentication\':\\n        $modx->event->_output = !empty($_SESSION[\'HybridAuth\'][\'verified\']);\\n        unset($_SESSION[\'HybridAuth\'][\'verified\']);\\n        break;\\n\\n    case \'OnUserFormPrerender\':\\n        \\/** @var modUser $user *\\/\\n        if (!isset($user) || $user->get(\'id\') < 1) {\\n            return;\\n        }\\n        $path = MODX_CORE_PATH . \'components\\/hybridauth\\/model\\/hybridauth\\/\';\\n        if ($HybridAuth = $modx->getService(\'HybridAuth\', \'HybridAuth\', $path)) {\\n            $HybridAuth->regManagerTab($modx->controller, $user);\\n        }\\n        break;\\n}","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"core\\/components\\/hybridauth\\/elements\\/plugins\\/plugin.hybridauth.php","content":"switch ($modx->event->name) {\\n\\n    case \'OnHandleRequest\':\\n        if ($modx->context->key != \'web\' && !$modx->user->id) {\\n            if ($user = $modx->getAuthenticatedUser($modx->context->key)) {\\n                $modx->user = $user;\\n                $modx->getUser($modx->context->key);\\n            }\\n        }\\n\\n        if ($modx->user->isAuthenticated($modx->context->key)) {\\n            if (!$modx->user->active || $modx->user->Profile->blocked) {\\n                $modx->runProcessor(\'security\\/logout\');\\n                $modx->sendRedirect($modx->makeUrl($modx->getOption(\'site_start\'), \'\', \'\', \'full\'));\\n            }\\n        }\\n\\n        if (!empty($_REQUEST[\'hauth_action\']) || !empty($_REQUEST[\'hauth_start\']) || !empty($_REQUEST[\'hauth_done\'])) {\\n            $config = !empty($_SESSION[\'HybridAuth\'][$modx->context->key])\\n                ? $_SESSION[\'HybridAuth\'][$modx->context->key]\\n                : array();\\n\\n            $path = MODX_CORE_PATH . \'components\\/hybridauth\\/model\\/hybridauth\\/\';\\n            \\/** @var HybridAuth $HybridAuth *\\/\\n            if ($HybridAuth = $modx->getService(\'HybridAuth\', \'HybridAuth\', $path, $config)) {\\n                if (!empty($_REQUEST[\'hauth_action\'])) {\\n                    switch ($_REQUEST[\'hauth_action\']) {\\n                        case \'login\':\\n                            if (!empty($_REQUEST[\'provider\'])) {\\n                                $HybridAuth->Login($_REQUEST[\'provider\']);\\n                            } else {\\n                                $HybridAuth->Refresh();\\n                            }\\n                            break;\\n                        case \'logout\':\\n                            $HybridAuth->Logout();\\n                            break;\\n                        case \'unbind\':\\n                            if (!empty($_REQUEST[\'provider\'])) {\\n                                $HybridAuth->runProcessor(\'web\\/service\\/remove\', array(\\n                                    \'provider\' => $_REQUEST[\'provider\'],\\n                                ));\\n                            }\\n                            $HybridAuth->Refresh();\\n                            break;\\n                    }\\n                } else {\\n                    $HybridAuth->processAuth();\\n                }\\n            }\\n        }\\n        break;\\n\\n    case \'OnWebAuthentication\':\\n        $modx->event->_output = !empty($_SESSION[\'HybridAuth\'][\'verified\']);\\n        unset($_SESSION[\'HybridAuth\'][\'verified\']);\\n        break;\\n\\n    case \'OnUserFormPrerender\':\\n        \\/** @var modUser $user *\\/\\n        if (!isset($user) || $user->get(\'id\') < 1) {\\n            return;\\n        }\\n        $path = MODX_CORE_PATH . \'components\\/hybridauth\\/model\\/hybridauth\\/\';\\n        if ($HybridAuth = $modx->getService(\'HybridAuth\', \'HybridAuth\', $path)) {\\n            $HybridAuth->regManagerTab($modx->controller, $user);\\n        }\\n        break;\\n}"}',
+        'guid' => 'd0b7cbc5eb9b8a89672cb5012ad4bab9',
+        'native_key' => 0,
+        'signature' => 'a61989b7dd6fc50937a6df9374abe444',
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            '9004db0a31f2e889849c2127ee72f1ae' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnHandleRequest","priority":10,"propertyset":0}',
+              'guid' => '3c05255c36212f03713916cb977b03fd',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnHandleRequest',
+              ),
+              'signature' => 'af08e70b9bfd1f2d823b2ff81679049e',
+            ),
+            '2740627348287fade3ab1d0bb11d66cd' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnUserFormPrerender","priority":0,"propertyset":0}',
+              'guid' => '978f7fc84aa524d322a2dec5088c23a3',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnUserFormPrerender',
+              ),
+              'signature' => 'e8f2d987e555593c048fe75f7468879b',
+            ),
+            '4ea90adb7115fcf2cfbe475fc79501f3' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnWebAuthentication","priority":0,"propertyset":0}',
+              'guid' => 'a9818a209c96bbf9f0fb97d6b897d2d5',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnWebAuthentication',
+              ),
+              'signature' => 'dc2b7ce51319ac9ea05f01214120f7d4',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'hybridauth',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"hybridauth-2.0.4-pl\\/modCategory\\/b4728114f4a19ace82e02426c8828cf5\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"hybridauth"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"hybridauth-2.0.4-pl\\/modCategory\\/b4728114f4a19ace82e02426c8828cf5\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"hybridauth"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"hybridauth-2.0.4-pl\\/modCategory\\/b4728114f4a19ace82e02426c8828cf5.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e8fe80b53ae0fb6d0f8d63fa9383f87e',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'b4728114f4a19ace82e02426c8828cf5',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"HybridAuth","rank":0}',
+);

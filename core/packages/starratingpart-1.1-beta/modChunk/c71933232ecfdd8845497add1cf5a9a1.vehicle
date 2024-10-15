@@ -1,0 +1,68 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      'e46795ca6eaf28acc28fad78b859e831' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":15,"parent":0,"category":"StarRating"}',
+        'guid' => '1a617e42aa9264b870a9278bf8c1cd7f',
+        'native_key' => 15,
+        'signature' => '4179964f3e19fe0966420d8b8299c94d',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"starratingpart-1.1-beta\\/modChunk\\/c71933232ecfdd8845497add1cf5a9a1.resolve.chunk.resolver","name":"resolve.chunk"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a97d1312337bf0e39ccb798045a17178',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'c71933232ecfdd8845497add1cf5a9a1',
+  'native_key' => 103,
+  'object' => '{"id":103,"source":1,"property_preprocess":0,"name":"starRatingCall","description":"","editor_type":0,"category":15,"cache_type":0,"snippet":"[[!starRatingCustom? &config_name=`article` &starId=`[[*id]]`]]","locked":0,"properties":"a:0:{}","static":1,"static_file":"assets\\/star_rating\\/elements\\/chunck.starRatingCall.php","content":"[[!starRatingCustom? &config_name=`article` &starId=`[[*id]]`]]"}',
+);

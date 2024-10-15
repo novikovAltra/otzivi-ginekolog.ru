@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3d256d6ab23b1e0346663270f2a51d71',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '59f600ba9205d247afa03d8049f1dda0',
+  'native_key' => 'import_remove_old_images',
+  'object' => '{"key":"import_remove_old_images","value":false,"xtype":"combo-boolean","namespace":"msimport","area":"msimport_settings_resource","editedon":null}',
+);

@@ -1,0 +1,68 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      '84d98b082b46234988fbacf51d22a30b' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":19,"parent":0,"category":"banners_altravita"}',
+        'guid' => '423e9ecb51cc7d274419b1a967fdce80',
+        'native_key' => 19,
+        'signature' => 'aa77285f5bd51dfbfa821b4291474ea9',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"banners-1.0-beta1\\/modChunk\\/062d3da924c8dfb36d238d79f5439958.resolve.chunk.resolver","name":"resolve.chunk"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6dda875d086f25d1830a57aa204bdffb',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '062d3da924c8dfb36d238d79f5439958',
+  'native_key' => 111,
+  'object' => '{"id":111,"source":2,"property_preprocess":0,"name":"banner_altravita_900","description":"","editor_type":0,"category":19,"cache_type":0,"snippet":"<style>\\n.banner_altravita_900{\\n    background: [[++banner_altravita_900_fon]];\\n}\\n\\n.banner_altravita_900 .button_banner {\\n    background: [[++banner_altravita_900_button]];\\n    color: [[++banner_altravita_900_text_color]];\\n}\\n\\n.banner_altravita_900 .button_banner:hover{\\n    background: [[++banner_altravita_900_button_hover]];\\n}\\n\\n\\n.banner_altravita_240 .button_banner{\\n    background: [[++banner_altravita_240_button]];\\n    color: [[++banner_altravita_240_text_color]];\\n}\\n\\n.banner_altravita_240 .banner_block_top{\\n    background: [[++banner_altravita_240_fon]];\\n}\\n\\n.banner_altravita_240 .button_banner:hover{\\n    background:[[++banner_altravita_240_button_hover]];\\n}\\n<\\/style>\\n\\n<div class=\\"hide_on_992\\">\\n    <div class=\\"banner_altravita_900\\">\\n        <div class=\\"banner_block_left\\">\\n            <span class=\\"logo_banner\\"><\\/span>\\n            <span class=\\"count_banner\\">[[++banner_altravita_900_count]]<\\/span>\\n            <span class=\\"text_banner\\">[[++banner_altravita_900_text]]<\\/span>\\n        <\\/div>\\n        \\n        <div class=\\"banner_block_right\\">\\n            <span class=\\"opis_banner\\">[[++banner_altravita_900_opis]]<\\/span>\\n            <a href=\\"[[++banner_altravita_900_two_link]]\\" target=\\"_blank\\">\\n                <span class=\\"button_banner\\">[[++banner_altravita_900_button_text]]<\\/span>\\n            <\\/a>\\n            <div class=\\"banner_block_right\\"><\\/div>\\n        <\\/div>\\n    <\\/div>\\n<\\/div> \\n\\n    \\n<div class=\\"show_on_992\\">\\n    <div class=\\"banner_altravita_240\\">\\n        <div class=\\"banner_block_top\\">\\n            <span class=\\"logo_banner\\">\\u0410\\u043b\\u044c\\u0442\\u0440\\u0430\\u0412\\u0438\\u0442\\u0430<\\/span>\\n            <span class=\\"count_banner\\">[[++banner_altravita_240_count]]<\\/span>\\n            <span class=\\"text_banner\\">[[++banner_altravita_240_text]]<\\/span>\\n            <span class=\\"line\\"><\\/span>\\n            <span class=\\"opis_banner\\">[[++banner_altravita_240_opis]]<\\/span>\\n        <\\/div>   \\n        \\n        <div class=\\"banner_block_bottom\\">\\n            <a href=\\"[[++banner_altravita_240_link]]\\" target=\\"_blank\\">\\n                <span class=\\"button_banner\\">[[++banner_altravita_240_button_text]]<\\/span>\\n            <\\/a>\\n        <\\/div>\\n        \\n    <\\/div>    \\n<\\/div>    ","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<style>\\n.banner_altravita_900{\\n    background: [[++banner_altravita_900_fon]];\\n}\\n\\n.banner_altravita_900 .button_banner {\\n    background: [[++banner_altravita_900_button]];\\n    color: [[++banner_altravita_900_text_color]];\\n}\\n\\n.banner_altravita_900 .button_banner:hover{\\n    background: [[++banner_altravita_900_button_hover]];\\n}\\n\\n\\n.banner_altravita_240 .button_banner{\\n    background: [[++banner_altravita_240_button]];\\n    color: [[++banner_altravita_240_text_color]];\\n}\\n\\n.banner_altravita_240 .banner_block_top{\\n    background: [[++banner_altravita_240_fon]];\\n}\\n\\n.banner_altravita_240 .button_banner:hover{\\n    background:[[++banner_altravita_240_button_hover]];\\n}\\n<\\/style>\\n\\n<div class=\\"hide_on_992\\">\\n    <div class=\\"banner_altravita_900\\">\\n        <div class=\\"banner_block_left\\">\\n            <span class=\\"logo_banner\\"><\\/span>\\n            <span class=\\"count_banner\\">[[++banner_altravita_900_count]]<\\/span>\\n            <span class=\\"text_banner\\">[[++banner_altravita_900_text]]<\\/span>\\n        <\\/div>\\n        \\n        <div class=\\"banner_block_right\\">\\n            <span class=\\"opis_banner\\">[[++banner_altravita_900_opis]]<\\/span>\\n            <a href=\\"[[++banner_altravita_900_two_link]]\\" target=\\"_blank\\">\\n                <span class=\\"button_banner\\">[[++banner_altravita_900_button_text]]<\\/span>\\n            <\\/a>\\n            <div class=\\"banner_block_right\\"><\\/div>\\n        <\\/div>\\n    <\\/div>\\n<\\/div> \\n\\n    \\n<div class=\\"show_on_992\\">\\n    <div class=\\"banner_altravita_240\\">\\n        <div class=\\"banner_block_top\\">\\n            <span class=\\"logo_banner\\">\\u0410\\u043b\\u044c\\u0442\\u0440\\u0430\\u0412\\u0438\\u0442\\u0430<\\/span>\\n            <span class=\\"count_banner\\">[[++banner_altravita_240_count]]<\\/span>\\n            <span class=\\"text_banner\\">[[++banner_altravita_240_text]]<\\/span>\\n            <span class=\\"line\\"><\\/span>\\n            <span class=\\"opis_banner\\">[[++banner_altravita_240_opis]]<\\/span>\\n        <\\/div>   \\n        \\n        <div class=\\"banner_block_bottom\\">\\n            <a href=\\"[[++banner_altravita_240_link]]\\" target=\\"_blank\\">\\n                <span class=\\"button_banner\\">[[++banner_altravita_240_button_text]]<\\/span>\\n            <\\/a>\\n        <\\/div>\\n        \\n    <\\/div>    \\n<\\/div>    "}',
+);

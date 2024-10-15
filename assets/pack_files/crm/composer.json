@@ -1,0 +1,6 @@
+{
+    "name": "altravita_120/crm",
+    "require": {
+        "artsdigital/crm-api": "dev-php-less-7"
+    }
+}

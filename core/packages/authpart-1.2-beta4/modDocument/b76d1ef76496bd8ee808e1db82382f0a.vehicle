@@ -1,0 +1,74 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Template' => 
+    array (
+      '93b8ca11ae2129809007ce1fa0d40e31' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":2,"source":0,"property_preprocess":0,"templatename":"\\u0412\\u043d\\u0443\\u0442\\u0440\\u0435\\u043d\\u043d\\u044f\\u044f","description":"","editor_type":0,"category":0,"icon":"","template_type":0,"content":"[[$HEAD]]\\n<body>\\n\\t<div class=\\"wrapper blog\\">\\n\\t\\t[[$HEADER]]\\n        <div class=\\"middle\\">\\n            <main class=\\"content\\">\\n    [[$promo_flash_banner]]\\n                <div class=\\"main-blog text_edit\\">\\n                    <div class=\\"container\\">\\n                        <div class=\\"row\\">\\n                            <div class=\\"wrap-title text_edit\\">\\n                                <h1>[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\n                                <div class=\\"title-line\\"><\\/div>\\n                            <\\/div>\\n                            <div class=\\"wrap-content\\">\\n                                <div class=\\"main-info\\">\\n                                    [[*content]]\\n                                <\\/div>\\n                                <div class=\\"clearfix\\"><\\/div>\\n                            <\\/div>\\n    \\n                        <\\/div>\\n                    <\\/div>\\n                <\\/div>\\n                <div class=\\"clearfix\\"><\\/div>\\n            <\\/main><!-- .content -->\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\t<!-- .wrapper -->\\n\\n\\t[[$FOOTER]]\\n\\n<\\/body>\\n\\n<\\/html>","locked":0,"properties":"a:0:{}","static":0,"static_file":""}',
+        'guid' => '5e0dcabe995421f42954e884d8693e93',
+        'native_key' => 2,
+        'signature' => '2f89ad90d5ed969af872203d0df5719c',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'TemplateVarResources' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'tmplvarid',
+        1 => 'contentid',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'TemplateVar' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => false,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Template' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 'templatename',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modDocument\\/b76d1ef76496bd8ee808e1db82382f0a.validate.resource.validator","name":"validate.resource"}',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modDocument\\/b76d1ef76496bd8ee808e1db82382f0a.resolve.resource.resolver","name":"resolve.resource"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ea650898c175a4401b6ae26685571941',
+  'package' => 'modx',
+  'class' => 'modDocument',
+  'signature' => 'b76d1ef76496bd8ee808e1db82382f0a',
+  'native_key' => 27,
+  'object' => '{"id":27,"type":"document","contentType":"text\\/html","pagetitle":"\\u041b\\u0438\\u0447\\u043d\\u044b\\u0439 \\u043a\\u0430\\u0431\\u0438\\u043d\\u0435\\u0442","longtitle":"","description":"","alias":"lichnyij-kabinet","link_attributes":"","published":0,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":1,"introtext":"","content":"","richtext":1,"template":2,"menuindex":9,"searchable":1,"cacheable":1,"createdby":3,"createdon":1469004294,"editedby":0,"editedon":0,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":0,"publishedby":0,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":1,"class_key":"modDocument","context_key":"web","content_type":1,"uri":"lichnyij-kabinet.html","uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":"{\\"ms2gallery\\":{\\"media_source\\":\\"3\\"}}"}',
+);

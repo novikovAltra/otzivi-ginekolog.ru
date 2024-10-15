@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd57916705a68f66e76661938fa74c121',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f161d163c538d28b326dc8b7a46c5f41',
+  'native_key' => 'import_category_resource_fields',
+  'object' => '{"key":"import_category_resource_fields","value":"{\\"published\\":\\"1\\"}","xtype":"textarea","namespace":"msimport","area":"msimport_settings_category","editedon":null}',
+);

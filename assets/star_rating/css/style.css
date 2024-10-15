@@ -1,0 +1,12 @@
+.star_wrapper {
+  font-size: 110%;
+  margin: 40px 0 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+.star-rating-wrapp {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  vertical-align: middle;
+}

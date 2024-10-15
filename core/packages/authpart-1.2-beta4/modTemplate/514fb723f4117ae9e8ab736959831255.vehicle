@@ -1,0 +1,317 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'templatename',
+  'related_objects' => 
+  array (
+    'TemplateVarTemplates' => 
+    array (
+      '43c4470d309e972d217eae3442b20b54' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'related_objects' => 
+        array (
+          'TemplateVar' => 
+          array (
+            'b2aa13631545053361bd7f9c3ee54d39' => 
+            array (
+              'class' => 'modTemplateVar',
+              'object' => '{"id":1,"source":2,"property_preprocess":0,"type":"text","name":"meta_title","caption":"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0441\\u0442\\u0440\\u0430\\u043d\\u0438\\u0446\\u044b","description":"","editor_type":0,"category":5,"locked":0,"elements":"","rank":0,"display":"default","default_text":"","properties":"a:0:{}","input_properties":"a:3:{s:10:\\"allowBlank\\";s:4:\\"true\\";s:9:\\"maxLength\\";s:0:\\"\\";s:9:\\"minLength\\";s:0:\\"\\";}","output_properties":"a:0:{}","static":0,"static_file":"","content":""}',
+              'guid' => '7972584e35f45c58cc8bd0ddaa2a0666',
+              'native_key' => 1,
+              'signature' => '53128e52ed44a15e1e5b978e7532bff1',
+              'related_objects' => 
+              array (
+                'Category' => 
+                array (
+                  'b25165a0d602fbb0688da6f697781223' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'category',
+                    'class' => 'modCategory',
+                    'object' => '{"id":5,"parent":0,"category":"SEO"}',
+                    'guid' => '5cdc6bd5189771c3181912034532808b',
+                    'native_key' => 5,
+                    'signature' => '7f504ef1eafef789c6399b9dd9b3e72e',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'TemplateVar' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 'name',
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'category',
+            ),
+          ),
+        ),
+        'class' => 'modTemplateVarTemplate',
+        'object' => '{"tmplvarid":1,"templateid":9,"rank":0}',
+        'guid' => '4dfb796e25fbaf3d716b63cba94ba49b',
+        'native_key' => 
+        array (
+          0 => 1,
+          1 => 9,
+        ),
+        'signature' => 'da4dcf7a57c858a350f7b506a514baeb',
+      ),
+      '0c18c06c8b8cfa1e9d4c7775a2a66a3e' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'related_objects' => 
+        array (
+          'TemplateVar' => 
+          array (
+            'ea6ba061c2ba8b64fb932d0350cfd3c9' => 
+            array (
+              'class' => 'modTemplateVar',
+              'object' => '{"id":2,"source":2,"property_preprocess":0,"type":"text","name":"meta_keywords","caption":"\\u041c\\u0435\\u0442\\u0430 keywords","description":"","editor_type":0,"category":5,"locked":0,"elements":"","rank":0,"display":"default","default_text":"","properties":"a:0:{}","input_properties":"a:3:{s:10:\\"allowBlank\\";s:4:\\"true\\";s:9:\\"maxLength\\";s:0:\\"\\";s:9:\\"minLength\\";s:0:\\"\\";}","output_properties":"a:0:{}","static":0,"static_file":"","content":""}',
+              'guid' => '1bdf24de0b6f2296ffbc84e2c58340ff',
+              'native_key' => 2,
+              'signature' => '68e7fd595d1d4a2df52158fa23adcd3c',
+              'related_objects' => 
+              array (
+                'Category' => 
+                array (
+                  'e0f4a5c547ee504f8e655a0520bfb9dc' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'category',
+                    'class' => 'modCategory',
+                    'object' => '{"id":5,"parent":0,"category":"SEO"}',
+                    'guid' => 'b8f271e47152b65db0b08f2e3ba618aa',
+                    'native_key' => 5,
+                    'signature' => 'edc4ca452580b2e8633cc46855d2e90c',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'TemplateVar' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 'name',
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'category',
+            ),
+          ),
+        ),
+        'class' => 'modTemplateVarTemplate',
+        'object' => '{"tmplvarid":2,"templateid":9,"rank":0}',
+        'guid' => '48aac1ce27cfc48f975513ef81fbd42a',
+        'native_key' => 
+        array (
+          0 => 2,
+          1 => 9,
+        ),
+        'signature' => 'e3f23e8ce61cfb87bf72d1eb7729d452',
+      ),
+      '5dabf219482a09eb87f6ad44913caf99' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'related_objects' => 
+        array (
+          'TemplateVar' => 
+          array (
+            'de2db1766f11a56af87380fd2aace6ae' => 
+            array (
+              'class' => 'modTemplateVar',
+              'object' => '{"id":3,"source":2,"property_preprocess":0,"type":"text","name":"meta_description","caption":"\\u041c\\u0435\\u0442\\u0430 description","description":"","editor_type":0,"category":5,"locked":0,"elements":"","rank":0,"display":"default","default_text":"","properties":"a:0:{}","input_properties":"a:3:{s:10:\\"allowBlank\\";s:4:\\"true\\";s:9:\\"maxLength\\";s:0:\\"\\";s:9:\\"minLength\\";s:0:\\"\\";}","output_properties":"a:0:{}","static":0,"static_file":"","content":""}',
+              'guid' => 'c7a686ccd09c5660806768372e230d1f',
+              'native_key' => 3,
+              'signature' => '699992d413c70d78ebda0454694d25dc',
+              'related_objects' => 
+              array (
+                'Category' => 
+                array (
+                  'fe285af03605281fe18b27a40b0ed429' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'category',
+                    'class' => 'modCategory',
+                    'object' => '{"id":5,"parent":0,"category":"SEO"}',
+                    'guid' => '79bfd0d4677a4b7626b23c9112f68d27',
+                    'native_key' => 5,
+                    'signature' => '59135ee6928ca7be3066d0a77246562e',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'TemplateVar' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 'name',
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'category',
+            ),
+          ),
+        ),
+        'class' => 'modTemplateVarTemplate',
+        'object' => '{"tmplvarid":3,"templateid":9,"rank":0}',
+        'guid' => '18b5e89e960c30b7058394067f5fd85f',
+        'native_key' => 
+        array (
+          0 => 3,
+          1 => 9,
+        ),
+        'signature' => '8f605a8b963ae86bd4365b36d7d0368b',
+      ),
+      '0f16537fc5c00160d036735dfb80ee66' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'related_objects' => 
+        array (
+          'TemplateVar' => 
+          array (
+            '327265ce3a90aefb840935ccf4655355' => 
+            array (
+              'class' => 'modTemplateVar',
+              'object' => '{"id":4,"source":2,"property_preprocess":0,"type":"image","name":"img","caption":"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435","description":"","editor_type":0,"category":3,"locked":0,"elements":"","rank":0,"display":"default","default_text":"","properties":"a:0:{}","input_properties":"a:3:{s:10:\\"allowBlank\\";s:4:\\"true\\";s:9:\\"maxLength\\";s:0:\\"\\";s:9:\\"minLength\\";s:0:\\"\\";}","output_properties":"a:0:{}","static":0,"static_file":"","content":""}',
+              'guid' => '0fc2dca4fb9799f66cfa26f3c80605ee',
+              'native_key' => 4,
+              'signature' => '87f746287c11fbe81defb75eb560f8f8',
+              'related_objects' => 
+              array (
+                'Category' => 
+                array (
+                  'e68de74f1a865c123287ab1997316fd6' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'category',
+                    'class' => 'modCategory',
+                    'object' => '{"id":3,"parent":0,"category":"\\u041e\\u0441\\u043d\\u043e\\u0432\\u043d\\u0430\\u044f \\u0441\\u0442\\u0440\\u0443\\u043a\\u0442\\u0443\\u0440\\u0430"}',
+                    'guid' => 'e0863f6dc357de683c6f77ade6bfc80f',
+                    'native_key' => 3,
+                    'signature' => 'e0564394e2d77debf4746d8ddfbb9ad4',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'TemplateVar' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 'name',
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'category',
+            ),
+          ),
+        ),
+        'class' => 'modTemplateVarTemplate',
+        'object' => '{"tmplvarid":4,"templateid":9,"rank":0}',
+        'guid' => '5939814d1d0d6901f9b3a92a7c807c0f',
+        'native_key' => 
+        array (
+          0 => 4,
+          1 => 9,
+        ),
+        'signature' => '72f7d01204b90cf8cf8390b6d815aa75',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+    'TemplateVarTemplates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'TemplateVar' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+          'related_objects' => true,
+          'related_object_attributes' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 'category',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modTemplate\\/514fb723f4117ae9e8ab736959831255.resolve.template.resolver","name":"resolve.template"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0a97c10b84db071152cbff275e05c7e9',
+  'package' => 'modx',
+  'class' => 'modTemplate',
+  'signature' => '514fb723f4117ae9e8ab736959831255',
+  'native_key' => 9,
+  'object' => '{"id":9,"source":0,"property_preprocess":0,"templatename":"\\u0410\\u0432\\u0442\\u043e\\u0440\\u0438\\u0437\\u0430\\u0446\\u0438\\u044f\\/\\u0420\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0430\\u0446\\u0438\\u044f","description":"","editor_type":0,"category":0,"icon":"","template_type":0,"content":"[[$HEAD]]\\n<body>\\n\\t<div class=\\"wrapper blog\\">\\n\\t\\t[[$HEADER]]\\n        <div class=\\"middle\\">\\n            <main class=\\"content\\">\\n    [[$promo_flash_banner]]\\n                <div class=\\"main-blog text_edit\\">\\n                    <div class=\\"container\\">\\n                        <div class=\\"row\\">\\n                            <div class=\\"wrap-title text_edit\\">\\n                                <h1>[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\n                                <div class=\\"title-line\\"><\\/div>\\n                            <\\/div>\\n                            <div class=\\"wrap-content\\">\\n                                <div class=\\"main-info\\">\\n                                    [[*content]]\\n                                <\\/div>\\n                                <div class=\\"clearfix\\"><\\/div>\\n                            <\\/div>\\n    \\n                        <\\/div>\\n                    <\\/div>\\n                <\\/div>\\n                <div class=\\"clearfix\\"><\\/div>\\n            <\\/main><!-- .content -->\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\t<!-- .wrapper -->\\n\\n\\t[[$FOOTER]]\\n\\n<\\/body>\\n\\n<\\/html>","locked":0,"properties":"a:0:{}","static":0,"static_file":""}',
+);

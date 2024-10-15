@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '29ac5f3aa3ff18ae2f82c0578ebbb1a4',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'd79ec925e7051ce734ffec121bbab5e0',
+  'native_key' => 'import_path_to_images',
+  'object' => '{"key":"import_path_to_images","value":"assets\\/components\\/msimport\\/import_images\\/","xtype":"textfield","namespace":"msimport","area":"msimport_settings","editedon":null}',
+);

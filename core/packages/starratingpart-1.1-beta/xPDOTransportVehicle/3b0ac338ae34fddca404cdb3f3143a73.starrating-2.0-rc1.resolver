@@ -1,0 +1,70 @@
+<?php
+/**
+ * Add package to packages grid
+ * 
+ * @package themepackagercomponent
+ */
+$success= true;
+if ($transport && $transport->xpdo) {
+    $signature = 'starrating-2.0-rc1';
+    $provider = '1';
+    $modx =& $transport->xpdo;
+    $modx->addPackage('modx.transport',$modx->getOption('core_path').'model/');
+    
+    switch ($options[xPDOTransport::PACKAGE_ACTION]) {
+        case xPDOTransport::ACTION_INSTALL:
+        case xPDOTransport::ACTION_UPGRADE:
+            /* define version */
+            $attributes = $modx->fromJSON('[]');
+            $metadata = $modx->fromJSON('[{"name":"id","attributes":[],"text":"4d556ab0b2b083396d00016d","children":[]},{"name":"package","attributes":[],"text":"4d556aaeb2b083396d000164","children":[]},{"name":"display_name","attributes":[],"text":"starrating-2.0-rc1","children":[]},{"name":"name","attributes":[],"text":"CSS Star Rating","children":[]},{"name":"version","attributes":[],"text":"2.0","children":[]},{"name":"version_major","attributes":[],"text":"2","children":[]},{"name":"version_minor","attributes":[],"text":"0","children":[]},{"name":"version_patch","attributes":[],"text":"0","children":[]},{"name":"release","attributes":[],"text":"rc1","children":[]},{"name":"vrelease","attributes":[],"text":"rc","children":[]},{"name":"vrelease_index","attributes":[],"text":"1","children":[]},{"name":"author","attributes":[],"text":"splittingred","children":[]},{"name":"description","attributes":[],"text":"<p>This snippet lets visitors to your site vote on your web articles using a completely CSS based star rating.<\/p>","children":[]},{"name":"instructions","attributes":[],"text":"<p>Install via Package Management.<\/p>","children":[]},{"name":"changelog","attributes":[],"children":[]},{"name":"createdon","attributes":[],"text":"2010-03-19T13:53:14+0000","children":[]},{"name":"createdby","attributes":[],"text":"splittingred","children":[]},{"name":"editedon","attributes":[],"text":"2016-07-15T09:12:35+0000","children":[]},{"name":"releasedon","attributes":[],"text":"2010-03-19T13:53:31+0000","children":[]},{"name":"downloads","attributes":[],"text":"13843","children":[]},{"name":"approved","attributes":[],"text":"true","children":[]},{"name":"audited","attributes":[],"text":"false","children":[]},{"name":"featured","attributes":[],"text":"false","children":[]},{"name":"deprecated","attributes":[],"text":"false","children":[]},{"name":"license","attributes":[],"text":"GPLv2","children":[]},{"name":"smf_url","attributes":[],"text":"http:\/\/modxcms.com\/forums\/index.php?topic=47188","children":[]},{"name":"repository","attributes":[],"text":"4d4c3fa6b2b0830da9000001","children":[]},{"name":"supports","attributes":[],"text":"2","children":[]},{"name":"location","attributes":[],"text":"http:\/\/modx.com\/extras\/download\/?id=4d556ab0b2b083396d00016e","children":[]},{"name":"signature","attributes":[],"text":"starrating-2.0-rc1","children":[]},{"name":"supports_db","attributes":[],"text":"mysql","children":[]},{"name":"minimum_supports","attributes":[],"text":"2","children":[]},{"name":"breaks_at","attributes":[],"text":"10000000","children":[]},{"name":"screenshot","attributes":[],"text":"http:\/\/modx.s3.amazonaws.com\/extras\/81\/starrating-ss.png","children":[]},{"name":"file","attributes":[],"children":[{"name":"id","attributes":[],"text":"4d556ab0b2b083396d00016e","children":[]},{"name":"version","attributes":[],"text":"4d556ab0b2b083396d00016d","children":[]},{"name":"filename","attributes":[],"text":"starrating-2.0-rc1.transport.zip","children":[]},{"name":"downloads","attributes":[],"text":"6928","children":[]},{"name":"lastip","attributes":[],"text":"194.116.233.42","children":[]},{"name":"transport","attributes":[],"text":"true","children":[]},{"name":"location","attributes":[],"text":"http:\/\/modx.com\/extras\/download\/?id=4d556ab0b2b083396d00016e","children":[]}]},{"name":"package-signature","attributes":[],"text":"starrating-2.0-rc1","children":[]},{"name":"categories","attributes":[],"text":"commenting-feedback","children":[]},{"name":"tags","attributes":[],"text":"tracking","children":[]}]');
+            $sig = explode('-',$signature);
+            $versionSignature = explode('.',$sig[1]);
+
+            /* add in the package as an object so it can be upgraded */
+            $package = $modx->newObject('transport.modTransportPackage');
+            $package->set('signature',$signature);
+            $package->fromArray(array(
+                'created' => date('Y-m-d h:i:s'),
+                'updated' => date('Y-m-d h:i:s'),
+                'installed' => strftime('%Y-%m-%d %H:%M:%S'),
+                'state' => 1,
+                'workspace' => 1,
+                'provider' => $provider,
+                'disabled' => false,
+                'source' => $signature.'.transport.zip',
+                'manifest' => null,
+                'attributes' => $attributes,
+                'package_name' => $sig[0],
+                'metadata' => $metadata,
+                'version_major' => $versionSignature[0],
+                'version_minor' => !empty($versionSignature[1]) ? $versionSignature[1] : 0,
+                'version_patch' => !empty($versionSignature[2]) ? $versionSignature[2] : 0,
+            ));
+            if (!empty($sig[2])) {
+                $r = preg_split('/([0-9]+)/',$sig[2],-1,PREG_SPLIT_DELIM_CAPTURE);
+                if (is_array($r) && !empty($r)) {
+                    $package->set('release',$r[0]);
+                    $package->set('release_index',(isset($r[1]) ? $r[1] : '0'));
+                } else {
+                    $package->set('release',$sig[2]);
+                }
+            }
+            $success = $package->save();
+            $modx->logManagerAction('package_install','transport.modTransportPackage',$package->get('id'));
+        break;
+        
+        case xPDOTransport::ACTION_UNINSTALL:
+            /* remove the package on uninstall */
+            $package = $modx->getObject('transport.modTransportPackage',array('signature' => $signature));
+            if ($package) {
+                if ($package->uninstall()) {
+                    $cacheManager= $modx->getCacheManager();
+                    $cacheManager->clearCache();
+                    $modx->logManagerAction('package_uninstall','transport.modTransportPackage',$package->get('id'));
+                }
+            }
+        break;
+    }
+}
+
+return $success;

@@ -1,0 +1,1 @@
+<li class="star"><a href="[[+url]]" style="width:[[+starWidth]]%;z-index:[[+starIndex]]" rel="nofollow">[[+idx]]</a></li>

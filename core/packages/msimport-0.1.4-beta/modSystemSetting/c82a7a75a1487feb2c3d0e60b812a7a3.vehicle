@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0c4c3628980b4b212e08fa3bbbd36ee0',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c82a7a75a1487feb2c3d0e60b812a7a3',
+  'native_key' => 'import_product_ms2_fields_relation',
+  'object' => '{"key":"import_product_ms2_fields_relation","value":"{}","xtype":"textarea","namespace":"msimport","area":"msimport_settings","editedon":null}',
+);

@@ -1,0 +1,81 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Template' => 
+    array (
+      'a282fb10f856ed07e2d03b478c6a339d' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":2,"source":0,"property_preprocess":0,"templatename":"\\u0412\\u043d\\u0443\\u0442\\u0440\\u0435\\u043d\\u043d\\u044f\\u044f","description":"","editor_type":0,"category":0,"icon":"","template_type":0,"content":"[[$HEAD]]\\n<body>\\n\\t<div class=\\"wrapper blog\\">\\n\\t\\t[[$HEADER]]\\n        <div class=\\"middle\\">\\n            <main class=\\"content\\">\\n    [[$promo_flash_banner]]\\n                <div class=\\"main-blog text_edit\\">\\n                    <div class=\\"container\\">\\n                        <div class=\\"row\\">\\n                            <div class=\\"wrap-title text_edit\\">\\n                                <h1>[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\n                                <div class=\\"title-line\\"><\\/div>\\n                            <\\/div>\\n                            <div class=\\"wrap-content\\">\\n                                <div class=\\"main-info\\">\\n                                    [[*content]]\\n                                <\\/div>\\n                                <div class=\\"clearfix\\"><\\/div>\\n                            <\\/div>\\n    \\n                        <\\/div>\\n                    <\\/div>\\n                <\\/div>\\n                <div class=\\"clearfix\\"><\\/div>\\n            <\\/main><!-- .content -->\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\t<!-- .wrapper -->\\n\\n\\t[[$FOOTER]]\\n\\n<\\/body>\\n\\n<\\/html>","locked":0,"properties":"a:0:{}","static":0,"static_file":""}',
+        'guid' => 'f67066f3dab2128deb1dbd51ecce84c9',
+        'native_key' => 2,
+        'signature' => 'e563e16e64da4a739c49970d070a3eb5',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'TemplateVarResources' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'tmplvarid',
+        1 => 'contentid',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'TemplateVar' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => false,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Template' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 'templatename',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modDocument\\/b9e57535e88a78cfe22362edc4cc502a.validate.resource.validator","name":"validate.resource"}',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modDocument\\/b9e57535e88a78cfe22362edc4cc502a.resolve.resource.resolver","name":"resolve.resource"}',
+    ),
+  ),
+  'parent_key' => 
+  array (
+    'context_key' => 'web',
+    'alias' => 'lichnyij-kabinet',
+    'pagetitle' => 'Личный кабинет',
+    'uri' => 'lichnyij-kabinet.html',
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ec416d1a88b398d4f8b17777b7e55c85',
+  'package' => 'modx',
+  'class' => 'modDocument',
+  'signature' => 'b9e57535e88a78cfe22362edc4cc502a',
+  'native_key' => 29,
+  'object' => '{"id":29,"type":"document","contentType":"text\\/html","pagetitle":"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0430 \\u043b\\u043e\\u044f\\u043b\\u044c\\u043d\\u043e\\u0441\\u0442\\u0438","longtitle":"","description":"","alias":"istoriya-zakazov","link_attributes":"","published":0,"pub_date":0,"unpub_date":0,"parent":27,"isfolder":0,"introtext":"","content":"[[$loyalty]]","richtext":1,"template":2,"menuindex":1,"searchable":1,"cacheable":1,"createdby":3,"createdon":1469004323,"editedby":3,"editedon":1469268627,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":0,"publishedby":0,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":1,"class_key":"modDocument","context_key":"web","content_type":1,"uri":"istoriya-zakazov.html","uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":null}',
+);

@@ -1,0 +1,68 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      'ec812494040d3021b8e674e0976366d0' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":15,"parent":0,"category":"StarRating"}',
+        'guid' => 'd7e999372aa51efaf2248eb1cbb6d5dd',
+        'native_key' => 15,
+        'signature' => '672cc3ddcb4140efff97b1ba022a88bd',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"starratingpart-1.1-beta\\/modChunk\\/890b17408e9b61527be15ee8fc2a792e.resolve.chunk.resolver","name":"resolve.chunk"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'dc19bd6fa339a36b91ec0ad14fa1e635',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '890b17408e9b61527be15ee8fc2a792e',
+  'native_key' => 72,
+  'object' => '{"id":72,"source":0,"property_preprocess":0,"name":"starTpl","description":"Star Rating Default Template","editor_type":0,"category":15,"cache_type":0,"snippet":"[[+rating]]\\n<!--span class=\\"totalvotes\\">Votes: [[-+vote_count]]<\\/span-->","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[+rating]]\\n<!--span class=\\"totalvotes\\">Votes: [[-+vote_count]]<\\/span-->"}',
+);

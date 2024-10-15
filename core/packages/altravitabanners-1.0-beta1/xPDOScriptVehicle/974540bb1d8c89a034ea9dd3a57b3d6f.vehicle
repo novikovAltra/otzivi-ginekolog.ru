@@ -1,0 +1,13 @@
+<?php return array (
+  'class' => 'xPDOScriptVehicle',
+  'object' => 
+  array (
+    'source' => 'altravitabanners-1.0-beta1/xPDOScriptVehicle/974540bb1d8c89a034ea9dd3a57b3d6f.cleanup.script',
+  ),
+  'vehicle_class' => 'xPDOScriptVehicle',
+  'vehicle_package' => 'transport',
+  'guid' => '90a61e7b6d96867abb284396b783577c',
+  'package' => '',
+  'signature' => '974540bb1d8c89a034ea9dd3a57b3d6f',
+  'native_key' => '90a61e7b6d96867abb284396b783577c',
+);

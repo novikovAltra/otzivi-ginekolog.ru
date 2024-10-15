@@ -1,0 +1,1 @@
+<li class="current-rating" style="width:[[+percentage]]%;">[[+currentText]]</li>

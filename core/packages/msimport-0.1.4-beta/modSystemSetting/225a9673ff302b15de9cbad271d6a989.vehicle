@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ee6eaa2c05c08d7680599fac2dba822d',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '225a9673ff302b15de9cbad271d6a989',
+  'native_key' => 'import_catalog_id',
+  'object' => '{"key":"import_catalog_id","value":"","xtype":"textfield","namespace":"msimport","area":"msimport_main","editedon":null}',
+);

@@ -1,0 +1,219 @@
+# MODX supports Friendly URLs via this .htaccess file. You must serve web
+# pages via Apache with mod_rewrite to use this functionality, and you must
+# change the file name from ht.access to .htaccess.
+#
+# Make sure RewriteBase points to the directory where you installed MODX.
+# E.g., "/modx" if your installation is in a "modx" subdirectory.
+#
+# You may choose to make your URLs non-case-sensitive by adding a NC directive
+# to your rule: RewriteRule ^(.*)$ index.php?q=$1 [L,QSA,NC]
+
+<ifModule mod_headers.c>
+
+   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+</ifModule>
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /
+<FilesMatch "robots.txt$">
+RewriteEngine off
+</FilesMatch>
+
+
+RewriteRule ^novosti.html$ /blog.html [R=301,L]
+RewriteRule ^otzyivyi-o-vrachax-ginekologax-reproduktologax.html/519-lyudmila.html$ /otzyivyi-o-vrachax-ginekologax-reproduktologax.html [R=301,L]
+RewriteRule ^endokrinolog-v-moskve-otzyivyi.html/526-evgenij.html$ /endokrinolog-v-moskve-otzyivyi.html [R=301,L]
+RewriteRule ^otzyivyi-o-vrachax-ginekologax-reproduktologax.html/530-ivan.html$ /otzyivyi-o-vrachax-ginekologax-reproduktologax.html [R=301,L]
+RewriteRule ^otzyivyi-o-vrachax-ginekologax-endoskopistax.html/532-snezhanna.html$ /otzyivyi-o-vrachax-ginekologax-endoskopistax.html [R=301,L]
+RewriteRule ^otzyivyi-o-vrachax-ultrazvukovoj-diagnostiki.html/518-karolina.html$ /otzyivyi-o-vrachax-ultrazvukovoj-diagnostiki.html [R=301,L]
+RewriteRule ^detskij-ginekolog-otzyivyi.html/523-elena.html$ /detskij-ginekolog-otzyivyi.html [R=301,L]
+RewriteRule ^otzyivyi-o-vrachax-akusherax.html/531-lida.html$ /otzyivyi-o-vrachax-akusherax.html [R=301,L]
+RewriteRule ^otzyivyi-o-vrachax-ginekologax-endokrinologax.html/528-alana-97.html$ /otzyivyi-o-vrachax-ginekologax-endokrinologax.html [R=301,L]
+RewriteRule ^otzyivyi-o-vrachax-ginekologax-endoskopistax.html/520-murat.html$ /otzyivyi-o-vrachax-ginekologax-endoskopistax.html [R=301,L]
+RewriteRule ^otzyivyi-o-vrachax-onkologax.html/522-igor.html$ /otzyivyi-o-vrachax-onkologax.html [R=301,L]
+RewriteRule ^otzyivyi-o-vrachax-ginekologax-endokrinologax.html/732-gronchenko-svetlala-i-boris-2018-06-27.html$ /otzyivyi-o-vrachax-ginekologax-endokrinologax.html [R=301,L]
+RewriteRule ^otzyivyi-ob-akusherax-ginekologax.html/525-mariana.html$ /otzyivyi-ob-akusherax-ginekologax.html [R=301,L]
+RewriteRule ^otzyivyi-o-vrachax-onkologax.html/527-nina.html$ /otzyivyi-o-vrachax-onkologax.html [R=301,L]
+RewriteRule ^konsultacziya-ginekologa-onlajn.html/524-milena.html$ /konsultacziya-ginekologa-onlajn.html [R=301,L]
+RewriteRule ^otzyivyi-o-vrachax-ginekologax-endoskopistax.html/529-marina.html$ /otzyivyi-o-vrachax-ginekologax-endoskopistax.html [R=301,L]
+RewriteRule ^konsultacziya-ginekologa-onlajn.html/533-dmitrij.html$ /konsultacziya-ginekologa-onlajn.html [R=301,L]
+RewriteRule ^otzyivyi-o-vrachax-akusherax.html/51-alena-ivanovna.html$ /otzyivyi-o-vrachax-akusherax.html [R=301,L]
+RewriteRule ^otzyivyi-ob-akusherax-ginekologax.html/534-egor.html$ /otzyivyi-ob-akusherax-ginekologax.html [R=301,L]
+
+
+# Rewrite www.domain.com -> domain.com -- used with SEO Strict URLs plugin
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^otzivi-ginekolog\.ru [NC]
+RewriteRule (.*) https://otzivi-ginekolog.ru/$1 [R=301,L]
+#
+# or for the opposite domain.com -> www.domain.com use the following
+# DO NOT USE BOTH
+#
+#RewriteCond %{HTTP_HOST} .
+#RewriteCond %{HTTP_HOST} !^www\.example-domain-please-change\.com [NC]
+#RewriteRule (.*) http://www.example-domain-please-change.com/$1 [R=301,L]
+
+RewriteRule ^alena-ivanovna.html$ / [R=301,L]
+RewriteRule ^profil.html$ / [R=301,L]
+RewriteRule ^mariya-kostomarova.html$ / [R=301,L]
+RewriteRule ^alla-ivannikova.html$ / [R=301,L]
+RewriteRule ^ekaterina-kolesnikova.html$ / [R=301,L]
+RewriteRule ^albina-vasileva.html$ / [R=301,L]
+RewriteRule ^karina-belozerova.html$ / [R=301,L]
+RewriteRule ^tatyana-vedernikova.html$ / [R=301,L]
+RewriteRule ^ekaterina-mitrofanova.html$ / [R=301,L]
+RewriteRule ^belyakova-tatyana.html$ / [R=301,L]
+RewriteRule ^churikova-svetlana.html$ / [R=301,L]
+RewriteRule ^melnikova-ekaterina.html$ / [R=301,L]
+RewriteRule ^zhivkina-elena.html$ / [R=301,L]
+RewriteRule ^mishhenko-yuliya.html$ / [R=301,L]
+RewriteRule ^tremesheva-viktoriya.html$ / [R=301,L]
+RewriteRule ^parilova-olga.html$ / [R=301,L]
+RewriteRule ^somova-galina.html$ / [R=301,L]
+RewriteRule ^dmitrienko-anastasiya.html$ / [R=301,L]
+RewriteRule ^selczova-inga.html$ / [R=301,L]
+RewriteRule ^reznikova-anna.html$ / [R=301,L]
+RewriteRule ^bagachuk-oksana.html$ / [R=301,L]
+RewriteRule ^olga-grishhenko.html$ / [R=301,L]
+RewriteRule ^yuliya-antonova.html$ / [R=301,L]
+RewriteRule ^kseniya-nikolaeva.html$ / [R=301,L]
+RewriteRule ^nadezhda-ivanova.html$ / [R=301,L]
+RewriteRule ^ekaterina-andreeva.html$ / [R=301,L]
+RewriteRule ^yuliya-mixajlova.html$ / [R=301,L]
+RewriteRule ^marina-ivasenko.html$ / [R=301,L]
+RewriteRule ^inga-prixorosheva.html$ / [R=301,L]
+RewriteRule ^olga-dmitrieva.html$ / [R=301,L]
+RewriteRule ^karina-promtova.html$ / [R=301,L]
+RewriteRule ^kristina-katedzhi.html$ / [R=301,L]
+RewriteRule ^elena-kropova.html$ / [R=301,L]
+RewriteRule ^diana-medenczeva.html$ / [R=301,L]
+RewriteRule ^larisa-verix.html$ / [R=301,L]
+RewriteRule ^kseniya-kabecz.html$ / [R=301,L]
+RewriteRule ^alla-akulinova.html$ / [R=301,L]
+RewriteRule ^irina-petriczkaya.html$ / [R=301,L]
+RewriteRule ^svetlana-yurikova.html$ / [R=301,L]
+RewriteRule ^alina-maxina.html$ / [R=301,L]
+RewriteRule ^anna-ivanova.html$ / [R=301,L]
+RewriteRule ^natalya-bogdan.html$ / [R=301,L]
+RewriteRule ^nina-zabara.html$ / [R=301,L]
+RewriteRule ^rita-vont.html$ / [R=301,L]
+RewriteRule ^diana-sapryikina.html$ / [R=301,L]
+RewriteRule ^ekaterina-demchenko.html$ / [R=301,L]
+RewriteRule ^irina-novak.html$ / [R=301,L]
+RewriteRule ^anna-savenko.html$ / [R=301,L]
+RewriteRule ^natalya-golubova.html$ / [R=301,L]
+RewriteRule ^lara-ivanova.html$ / [R=301,L]
+RewriteRule ^irina-belova.html$ / [R=301,L]
+RewriteRule ^kristina-suxanova.html$ / [R=301,L]
+RewriteRule ^kseniya-koroleva.html$ / [R=301,L]
+RewriteRule ^viktoriya-nikitina.html$ / [R=301,L]
+RewriteRule ^elena-lishkevich.html$ / [R=301,L]
+RewriteRule ^olesya-romanyuk.html$ / [R=301,L]
+RewriteRule ^anastasiya-kuryabina.html$ / [R=301,L]
+RewriteRule ^natalya-gromova.html$ / [R=301,L]
+RewriteRule ^alena-kuzmina.html$ / [R=301,L]
+RewriteRule ^valentina-soloveva.html$ / [R=301,L]
+RewriteRule ^darya-zaxarova.html$ / [R=301,L]
+RewriteRule ^safirova-mariya-olegovna.html$ / [R=301,L]
+RewriteRule ^kulik-raisa-alekseevna.html$ / [R=301,L]
+RewriteRule ^markova-alisa-stanislavovna.html$ / [R=301,L]
+RewriteRule ^donovskaya-kristina-leonidovna.html$ / [R=301,L]
+RewriteRule ^malvina-oksana-valerevna.html$ / [R=301,L]
+RewriteRule ^kuzmina-raisa-arkadievna.html$ / [R=301,L]
+RewriteRule ^lavrinecz-svetlana-aleksandrovna.html$ / [R=301,L]
+RewriteRule ^taratyinova-olga-vasilevna.html$ / [R=301,L]
+RewriteRule ^malyigina-antonina-sergeevna.html$ / [R=301,L]
+RewriteRule ^lozovaya-elizaveta-petrovna.html$ / [R=301,L]
+RewriteRule ^arxipova-tatyana-semenovna.html$ / [R=301,L]
+RewriteRule ^pronin-anatolij-pavlovich.html$ / [R=301,L]
+RewriteRule ^zaripova-zulfiya-maratovna.html$ / [R=301,L]
+RewriteRule ^shatoxina-mariya-aleksandrovna.html$ / [R=301,L]
+RewriteRule ^kirichenko-evgeniya-alekseevna.html$ / [R=301,L]
+RewriteRule ^portunina-anzhela-georgievna.html$ / [R=301,L]
+RewriteRule ^mixajlovskaya-irina-nikolaevna.html$ / [R=301,L]
+RewriteRule ^igricheva-valeriya-antonovna.html$ / [R=301,L]
+RewriteRule ^dunaeva-antonina-valerevna.html$ / [R=301,L]
+RewriteRule ^anneta-belousova.html$ / [R=301,L]
+RewriteRule ^sasha-evdokimova.html$ / [R=301,L]
+RewriteRule ^marina-blinova.html$ / [R=301,L]
+RewriteRule ^klavdiya-ivanova.html$ / [R=301,L]
+RewriteRule ^nina-mixitarova.html$ / [R=301,L]
+RewriteRule ^anna-druzhinina.html$ / [R=301,L]
+RewriteRule ^maryam-dinaeva.html$ / [R=301,L]
+RewriteRule ^sofiya-bolgova.html$ / [R=301,L]
+RewriteRule ^elina-suxarenko.html$ / [R=301,L]
+RewriteRule ^anastasiya-bondar.html$ / [R=301,L]
+RewriteRule ^otzyivyi-o-vrachax-ginekologax.html$ /otzyivyi-o-xoroshix-ginekologax.html [R=301,L]
+RewriteRule ^xoroshij-ginekolog,-otzyivyi-o-kotorom-dostojnyie,-doverit-li-emu-svoe-zdorove-taktika-poiska-medika.html$ / [R=301,L]
+RewriteRule ^ginekolog-endokrinolog-v-moskve,-otzyivyi.html$ / [R=301,L]
+
+RewriteRule ^konsultacziya-ginekologa-otzyivyi.html$ /konsultacziya-ginekologa-onlajn.html [R=301,L]
+RewriteRule ^ginekolog-endokrinolog-v-moskve-otzyivyi.html$ /otzyivyi-paczientov-o-ginekologax-i-endokrinologax.html [R=301,L]
+RewriteRule ^xoroshij-ginekolog-taktika-poiska-medika.html$ /otzyivyi-xoroshij-li-ginekolog.html [R=301,L]
+
+# Rewrite secure requests properly to prevent SSL cert warnings, e.g. prevent 
+# https://www.domain.com when your cert only allows https://secure.domain.com
+RewriteCond %{SERVER_PORT} !^443
+RewriteRule (.*) https://otzivi-ginekolog.ru/$1 [R=301,L]
+
+
+# The Friendly URLs part
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+
+
+
+# Make sure .htc files are served with the proper MIME type, which is critical
+# for XP SP2. Un-comment if your host allows htaccess MIME type overrides.
+
+#AddType text/x-component .htc
+
+
+
+# If your server is not already configured as such, the following directive
+# should be uncommented in order to set PHP's register_globals option to OFF.
+# This closes a major security hole that is abused by most XSS (cross-site
+# scripting) attacks. For more information: http://php.net/register_globals
+#
+# To verify that this option has been set to OFF, open the Manager and choose
+# Reports -> System Info and then click the phpinfo() link. Do a Find on Page
+# for "register_globals". The Local Value should be OFF. If the Master Value
+# is OFF then you do not need this directive here.
+#
+# IF REGISTER_GLOBALS DIRECTIVE CAUSES 500 INTERNAL SERVER ERRORS :
+#
+# Your server does not allow PHP directives to be set via .htaccess. In that
+# case you must make this change in your php.ini file instead. If you are
+# using a commercial web host, contact the administrators for assistance in
+# doing this. Not all servers allow local php.ini files, and they should
+# include all PHP configurations (not just this one), or you will effectively
+# reset everything to PHP defaults. Consult www.php.net for more detailed
+# information about setting PHP directives.
+
+#php_flag register_globals Off
+
+
+
+# For servers that support output compression, you should pick up a bit of
+# speed by un-commenting the following lines.
+
+#php_flag zlib.output_compression On
+#php_value zlib.output_compression_level 5
+
+
+
+# The following directives stop screen flicker in IE on CSS rollovers. If
+# needed, un-comment the following rules. When they're in place, you may have
+# to do a force-refresh in order to see changes in your designs.
+
+#ExpiresActive On
+#ExpiresByType image/gif A2592000
+#ExpiresByType image/jpeg A2592000
+#ExpiresByType image/png A2592000
+#BrowserMatch "MSIE" brokenvary=1
+#BrowserMatch "Mozilla/4.[0-9]{2}" brokenvary=1
+#BrowserMatch "Opera" !brokenvary
+#SetEnvIf brokenvary 1 force-no-vary

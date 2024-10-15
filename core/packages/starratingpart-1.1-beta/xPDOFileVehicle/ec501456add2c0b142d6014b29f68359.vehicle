@@ -1,0 +1,15 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'starratingpart-1.1-beta/xPDOFileVehicle/ec501456add2c0b142d6014b29f68359/',
+    'target' => 'return "".MODX_ASSETS_PATH."/";',
+    'name' => 'star_rating',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'vehicle_package' => 'transport',
+  'guid' => 'fcfbdea249aeb6786ce18a03e100d981',
+  'package' => '',
+  'signature' => 'ec501456add2c0b142d6014b29f68359',
+  'native_key' => 'fcfbdea249aeb6786ce18a03e100d981',
+);

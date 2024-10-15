@@ -1,0 +1,20 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modSystemSetting\\/cc36f504ba5cf588a5324be71e94b5ed.resolve.extension_packages.resolver","name":"resolve.extension_packages"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9cbba8ab69454d610163857cf7ad2c6f',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'cc36f504ba5cf588a5324be71e94b5ed',
+  'native_key' => 'extension_packages',
+  'object' => '{"key":"extension_packages","value":"[{\\"tickets\\":{\\"path\\":\\"[[++core_path]]components\\\\\\/tickets\\\\\\/model\\\\\\/\\"}},{\\"hybridauth\\":{\\"path\\":\\"[[++core_path]]components\\\\\\/hybridauth\\\\\\/model\\\\\\/\\"}}]","xtype":"textfield","namespace":"core","area":"system","editedon":"2016-07-20 11:40:51"}',
+);

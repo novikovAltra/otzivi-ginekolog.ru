@@ -1,0 +1,81 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Template' => 
+    array (
+      'cc44c0dff7ad840602f2e6ae3689c748' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":2,"source":0,"property_preprocess":0,"templatename":"\\u0412\\u043d\\u0443\\u0442\\u0440\\u0435\\u043d\\u043d\\u044f\\u044f","description":"","editor_type":0,"category":0,"icon":"","template_type":0,"content":"[[$HEAD]]\\n<body>\\n\\t<div class=\\"wrapper blog\\">\\n\\t\\t[[$HEADER]]\\n        <div class=\\"middle\\">\\n            <main class=\\"content\\">\\n    [[$promo_flash_banner]]\\n                <div class=\\"main-blog text_edit\\">\\n                    <div class=\\"container\\">\\n                        <div class=\\"row\\">\\n                            <div class=\\"wrap-title text_edit\\">\\n                                <h1>[[*longtitle:default=`[[*pagetitle]]`]]<\\/h1>\\n                                <div class=\\"title-line\\"><\\/div>\\n                            <\\/div>\\n                            <div class=\\"wrap-content\\">\\n                                <div class=\\"main-info\\">\\n                                    [[*content]]\\n                                <\\/div>\\n                                <div class=\\"clearfix\\"><\\/div>\\n                            <\\/div>\\n    \\n                        <\\/div>\\n                    <\\/div>\\n                <\\/div>\\n                <div class=\\"clearfix\\"><\\/div>\\n            <\\/main><!-- .content -->\\n\\t\\t<\\/div>\\n\\t<\\/div>\\n\\t<!-- .wrapper -->\\n\\n\\t[[$FOOTER]]\\n\\n<\\/body>\\n\\n<\\/html>","locked":0,"properties":"a:0:{}","static":0,"static_file":""}',
+        'guid' => '6c21a2877c038cd0b584634780fd88e4',
+        'native_key' => 2,
+        'signature' => 'fdd87fcc579660a3b1e84e98b76b6a87',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'TemplateVarResources' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'tmplvarid',
+        1 => 'contentid',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'TemplateVar' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => false,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Template' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 'templatename',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modDocument\\/f1d732852b7cce45173b5396f46cb287.validate.resource.validator","name":"validate.resource"}',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modDocument\\/f1d732852b7cce45173b5396f46cb287.resolve.resource.resolver","name":"resolve.resource"}',
+    ),
+  ),
+  'parent_key' => 
+  array (
+    'context_key' => 'web',
+    'alias' => 'lichnyij-kabinet',
+    'pagetitle' => 'Личный кабинет',
+    'uri' => 'lichnyij-kabinet.html',
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '39c994feed3cdf5cd89f023e4747b5e3',
+  'package' => 'modx',
+  'class' => 'modDocument',
+  'signature' => 'f1d732852b7cce45173b5396f46cb287',
+  'native_key' => 28,
+  'object' => '{"id":28,"type":"document","contentType":"text\\/html","pagetitle":"\\u041f\\u0440\\u043e\\u0444\\u0438\\u043b\\u044c","longtitle":"","description":"","alias":"profil","link_attributes":"","published":1,"pub_date":0,"unpub_date":0,"parent":27,"isfolder":0,"introtext":"","content":"[[$loyalty_short]]\\n[[!officeProfile?\\ntplProfile=`tpl.Office.profile.form.custom`\\n&HybridAuth=`1`\\n]]\\n","richtext":1,"template":2,"menuindex":0,"searchable":0,"cacheable":1,"createdby":3,"createdon":1469004309,"editedby":3,"editedon":1469363091,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":1469006940,"publishedby":3,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":1,"class_key":"modDocument","context_key":"web","content_type":1,"uri":"profil.html","uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":"{\\"ms2gallery\\":{\\"media_source\\":\\"3\\"}}"}',
+);

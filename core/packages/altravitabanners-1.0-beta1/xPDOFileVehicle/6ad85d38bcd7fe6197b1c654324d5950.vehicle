@@ -1,0 +1,31 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'altravitabanners-1.0-beta1/xPDOFileVehicle/6ad85d38bcd7fe6197b1c654324d5950/',
+    'target' => 'return MODX_CORE_PATH . \'components/vapor/model/\';',
+    'name' => 'vapor',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"altravitabanners-1.0-beta1\\/xPDOFileVehicle\\/6ad85d38bcd7fe6197b1c654324d5950.validate.truncate_tables.validator","classes":["modChunk","modCategory","modCategoryClosure","modElementPropertySet","modManagerLog","modPlugin","modResource","modSnippet","modTemplate","modTemplateVar","modTemplateVarTemplate","modTemplateVarResource","modTemplateVarResourceGroup"],"name":"validate.truncate_tables"}',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"altravitabanners-1.0-beta1\\/xPDOFileVehicle\\/6ad85d38bcd7fe6197b1c654324d5950.resolve.vapor_model.resolver","name":"resolve.vapor_model"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => 'b60198e0a2133760915c40adbba34e89',
+  'package' => '',
+  'signature' => '6ad85d38bcd7fe6197b1c654324d5950',
+  'native_key' => 'b60198e0a2133760915c40adbba34e89',
+);

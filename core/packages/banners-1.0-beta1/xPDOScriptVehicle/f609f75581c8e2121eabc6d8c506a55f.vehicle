@@ -1,0 +1,13 @@
+<?php return array (
+  'class' => 'xPDOScriptVehicle',
+  'object' => 
+  array (
+    'source' => 'banners-1.0-beta1/xPDOScriptVehicle/f609f75581c8e2121eabc6d8c506a55f.cleanup.script',
+  ),
+  'vehicle_class' => 'xPDOScriptVehicle',
+  'vehicle_package' => 'transport',
+  'guid' => 'bf395877e1b718dcd94c8f0536b28d73',
+  'package' => '',
+  'signature' => 'f609f75581c8e2121eabc6d8c506a55f',
+  'native_key' => 'bf395877e1b718dcd94c8f0536b28d73',
+);

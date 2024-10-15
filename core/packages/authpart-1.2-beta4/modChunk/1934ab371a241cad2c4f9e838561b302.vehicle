@@ -1,0 +1,68 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      'bbf3bc6e322ad3e9b6a57ef9d705c4de' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":18,"parent":0,"category":"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0430 \\u043b\\u043e\\u044f\\u043b\\u044c\\u043d\\u043e\\u0441\\u0442\\u0438"}',
+        'guid' => '05afd22e6b69cb71f74dea1d6839f033',
+        'native_key' => 18,
+        'signature' => 'a3878464cd243c2528bb20e8093a3e9e',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modChunk\\/1934ab371a241cad2c4f9e838561b302.resolve.chunk.resolver","name":"resolve.chunk"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fdd3a2be175ab1cf2cebbb03008ceb47',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '1934ab371a241cad2c4f9e838561b302',
+  'native_key' => 95,
+  'object' => '{"id":95,"source":1,"property_preprocess":0,"name":"loyalty_short","description":"","editor_type":0,"category":18,"cache_type":0,"snippet":"","locked":0,"properties":"a:0:{}","static":1,"static_file":"assets\\/pack_files\\/loyalty\\/elements\\/chunk.loyalty_short.php","content":""}',
+);

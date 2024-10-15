@@ -1,0 +1,68 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      '247ac4badda1feef756062c1292b3c67' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":15,"parent":0,"category":"StarRating"}',
+        'guid' => '7ffe153cea49f322ebbd626b4757fb9b',
+        'native_key' => 15,
+        'signature' => '4b74f82786bd46be938b38411cd54165',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"starratingpart-1.1-beta\\/modChunk\\/001cc67cb0147e9459571e197b9b61b5.resolve.chunk.resolver","name":"resolve.chunk"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9d3d49ff476f977f4ed5abb3039751e6',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '001cc67cb0147e9459571e197b9b61b5',
+  'native_key' => 99,
+  'object' => '{"id":99,"source":1,"property_preprocess":0,"name":"firstStarTpl","description":"","editor_type":0,"category":15,"cache_type":0,"snippet":"<li class=\\"current-rating\\" style=\\"width:[[+percentage]]%;\\">[[+currentText]]<\\/li>","locked":0,"properties":"a:0:{}","static":1,"static_file":"assets\\/star_rating\\/elements\\/chunck.firstStarTpl.php","content":"<li class=\\"current-rating\\" style=\\"width:[[+percentage]]%;\\">[[+currentText]]<\\/li>"}',
+);

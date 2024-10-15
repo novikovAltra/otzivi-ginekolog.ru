@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7dc6398fc6b5d9ad8986fee762b79cd3',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '61a567217e88d0e11efd6418b7b1170a',
+  'native_key' => 'banner_altravita_900_button_hover',
+  'object' => '{"key":"banner_altravita_900_button_hover","value":"#efa20f","xtype":"textfield","namespace":"banners","area":"banner_altravita_900","editedon":"0000-00-00 00:00:00"}',
+);

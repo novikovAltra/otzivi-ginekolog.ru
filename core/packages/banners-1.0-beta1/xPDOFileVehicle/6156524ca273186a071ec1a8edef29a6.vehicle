@@ -1,0 +1,31 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'banners-1.0-beta1/xPDOFileVehicle/6156524ca273186a071ec1a8edef29a6/',
+    'target' => 'return MODX_CORE_PATH . \'components/vapor/model/\';',
+    'name' => 'vapor',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"banners-1.0-beta1\\/xPDOFileVehicle\\/6156524ca273186a071ec1a8edef29a6.validate.truncate_tables.validator","classes":["modChunk","modCategory","modCategoryClosure","modElementPropertySet","modManagerLog","modPlugin","modResource","modSnippet","modTemplate","modTemplateVar","modTemplateVarTemplate","modTemplateVarResource","modTemplateVarResourceGroup"],"name":"validate.truncate_tables"}',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"banners-1.0-beta1\\/xPDOFileVehicle\\/6156524ca273186a071ec1a8edef29a6.resolve.vapor_model.resolver","name":"resolve.vapor_model"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => '2d9f6d6e534ea9b2c957a3fb3ccd78a4',
+  'package' => '',
+  'signature' => '6156524ca273186a071ec1a8edef29a6',
+  'native_key' => '2d9f6d6e534ea9b2c957a3fb3ccd78a4',
+);

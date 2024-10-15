@@ -1,0 +1,68 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      'd56547b65d37a74d78ae2c3287ad9ceb' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":16,"parent":0,"category":"Office"}',
+        'guid' => '44ece0ea1d9cf1fe0d80647f566fb64c',
+        'native_key' => 16,
+        'signature' => 'efc1137555f8d8b50c5a7606879e38c8',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"authpart-1.2-beta4\\/modChunk\\/4df75f91ee97cfa778b7c0c862e8d7c5.resolve.chunk.resolver","name":"resolve.chunk"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0a712922045ed4de912324acefab134a',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '4df75f91ee97cfa778b7c0c862e8d7c5',
+  'native_key' => 97,
+  'object' => '{"id":97,"source":1,"property_preprocess":0,"name":"tpl.Office.profile.form.popup","description":"","editor_type":0,"category":16,"cache_type":0,"snippet":"<div class=\\"logged-user\\">\\n    <a href=\\"[[~28]]\\" class=\\"username js-username\\">[[+fullname]]<\\/a>\\n    <div class=\\"user-icon_logged\\"><i class=\\"fa fa-user\\"><\\/i><\\/div>\\n    <div class=\\"user-cabinet js-user-cabinet\\">\\n        <span class=\\"close-cabinet\\"><i class=\\"fa fa-times\\"><\\/i><\\/span>\\n        <div class=\\"user-profile\\">\\n            <div class=\\"user-avatar\\"><i class=\\"fa fa-user\\"><\\/i><\\/div>\\n            <div class=\\"user-profile-name\\"><p>[[+fullname]]<\\/p><\\/div>\\n        <\\/div>\\n        <div class=\\"cabinet__footer\\">\\n            <a class=\\"profile-btn\\" href=\\"[[~28]]\\">\\u041f\\u0440\\u043e\\u0444\\u0438\\u043b\\u044c<\\/a>\\n            <a class=\\"profile-btn\\" href=\\"[[~1]]?action=auth\\/logout\\">\\u0412\\u044b\\u0445\\u043e\\u0434<\\/a> \\n        <\\/div>\\n    <\\/div>\\n<\\/div>","locked":0,"properties":"a:0:{}","static":0,"static_file":"core\\/components\\/office\\/elements\\/chunks\\/chunk.profile.form.tpl","content":"<div class=\\"logged-user\\">\\n    <a href=\\"[[~28]]\\" class=\\"username js-username\\">[[+fullname]]<\\/a>\\n    <div class=\\"user-icon_logged\\"><i class=\\"fa fa-user\\"><\\/i><\\/div>\\n    <div class=\\"user-cabinet js-user-cabinet\\">\\n        <span class=\\"close-cabinet\\"><i class=\\"fa fa-times\\"><\\/i><\\/span>\\n        <div class=\\"user-profile\\">\\n            <div class=\\"user-avatar\\"><i class=\\"fa fa-user\\"><\\/i><\\/div>\\n            <div class=\\"user-profile-name\\"><p>[[+fullname]]<\\/p><\\/div>\\n        <\\/div>\\n        <div class=\\"cabinet__footer\\">\\n            <a class=\\"profile-btn\\" href=\\"[[~28]]\\">\\u041f\\u0440\\u043e\\u0444\\u0438\\u043b\\u044c<\\/a>\\n            <a class=\\"profile-btn\\" href=\\"[[~1]]?action=auth\\/logout\\">\\u0412\\u044b\\u0445\\u043e\\u0434<\\/a> \\n        <\\/div>\\n    <\\/div>\\n<\\/div>"}',
+);

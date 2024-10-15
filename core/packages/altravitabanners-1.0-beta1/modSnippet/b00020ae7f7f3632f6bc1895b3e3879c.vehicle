@@ -1,0 +1,60 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'related_objects' => 
+  array (
+    'Category' => 
+    array (
+      'd6f7ceb1ee32e073ab105e36460e7cac' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'category',
+        'class' => 'modCategory',
+        'object' => '{"id":19,"parent":0,"category":"banners_altravita"}',
+        'guid' => '87c57dfc15bf2b02364bdfd83ee18caf',
+        'native_key' => 19,
+        'signature' => '7464505a7d04d30c707219a6779830a7',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PropertySets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'element',
+        1 => 'element_class',
+        2 => 'property_set',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PropertySet' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 'name',
+        ),
+      ),
+    ),
+    'Category' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'category',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a9f64e837b0be80527c191af000ef0ef',
+  'package' => 'modx',
+  'class' => 'modSnippet',
+  'signature' => 'b00020ae7f7f3632f6bc1895b3e3879c',
+  'native_key' => 56,
+  'object' => '{"id":56,"source":1,"property_preprocess":0,"name":"bannersInitialize","description":"","editor_type":0,"category":19,"cache_type":0,"snippet":"$default = array(\\n    \\"show_banner_on_main\\" => 1,\\n    \\"show_banner_on_article\\" => 1\\n);\\n$config = require(MODX_ASSETS_PATH . \'banners_altravita\\/config.php\');\\n$modx->setPlaceholders(array_merge($default, $config));\\n$modx->regClientCSS(MODX_ASSETS_URL . \'banners_altravita\\/style.css\');\\nreturn;","locked":0,"properties":"a:0:{}","moduleguid":"","static":1,"static_file":"assets\\/banners_altravita\\/elements\\/snippet.bannersInitialize.php","content":"$default = array(\\n    \\"show_banner_on_main\\" => 1,\\n    \\"show_banner_on_article\\" => 1\\n);\\n$config = require(MODX_ASSETS_PATH . \'banners_altravita\\/config.php\');\\n$modx->setPlaceholders(array_merge($default, $config));\\n$modx->regClientCSS(MODX_ASSETS_URL . \'banners_altravita\\/style.css\');\\nreturn;"}',
+);

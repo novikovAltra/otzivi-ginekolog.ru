@@ -1,0 +1,50 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      '2636473eecf9aebbcaacb53fd64c677a' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":0,"namespace":"msimport","controller":"index","haslayout":1,"lang_topics":"msimport:default","assets":"","help_url":"","parent":0}',
+        'guid' => 'b2c70a27f343879882dbce49854a09ab',
+        'native_key' => 0,
+        'signature' => '187f1117d21517ece301902c04019eec',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'msimport',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8cfe5f95f0b29f8ea99f30119be2833b',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '7d3d2d9addfff45d55183d3f9c29cb6b',
+  'native_key' => 'msimport_caption',
+  'object' => '{"text":"msimport_caption","parent":"components","action":0,"description":"msimport_menu_desc","icon":"images\\/icons\\/plugin.gif","menuindex":0,"params":"","handler":"","permissions":"","namespace":"core"}',
+);
