@@ -1,0 +1,47 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main  # Запускается при push в ветку main
+
+jobs:
+  deploy:
+    # Указываем, что используем self-hosted runner
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+        # Подключение SSH ключа для всех SSH-команд
+      - name: Start SSH agent and add key
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY_LOCAL }}  # Используем секрет
+
+
+      - name: List added keys
+        run: ssh-add -l
+
+      # Выполнение миграции базы данных
+      - name: Test SSH connection
+        run:
+          sshpass -p '1qa2ws3ed' ssh -o StrictHostKeyChecking=no pbn@192.168.23.149 'echo "SSH connection successful"'
+
+      - name: Export local database on remote server
+        run: |
+          sshpass -p '1qa2ws3ed' ssh -o StrictHostKeyChecking=no pbn@192.168.23.149 "mysqldump -u root -p'259a13127dc02b05' stariigi_ginekol > /tmp/stariigi_ginekol.sql"
+
+      - name: Transfer database dump to server 2
+        run: |
+          sshpass -p '1qa2ws3ed' scp -o StrictHostKeyChecking=no /tmp/stariigi_ginekol.sql root@45.143.93.147:/www/wwwroot/
+
+      - name: Import database on remote server
+        run: |
+          sshpass -p 'dEV0VNh2b8' ssh -o StrictHostKeyChecking=no root@45.143.93.147 "mysql -u root -p'newpassword' stariigi_ginekol < /www/wwwroot/stariigi_ginekol.sql"
+
+      # Синхронизация файлов с сервером
+      - name: Deploy files to server
+        run: |
+          rsync -avz --exclude '.git/' -e "ssh -o StrictHostKeyChecking=no" ./ root@195.133.198.54:/www/wwwroot/otzivi-ginekolog.ru
